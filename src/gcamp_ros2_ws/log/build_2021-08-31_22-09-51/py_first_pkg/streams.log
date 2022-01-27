@@ -1,0 +1,34 @@
+[1.749s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build
+[2.328s] running develop
+[2.653s] Removing /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py-first-pkg.egg-link (link to .)
+[2.720s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build
+[2.726s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_first_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/install.log --single-version-externally-managed
+[3.263s] running egg_info
+[3.272s] writing ../../../build/py_first_pkg/py_first_pkg.egg-info/PKG-INFO
+[3.283s] writing dependency_links to ../../../build/py_first_pkg/py_first_pkg.egg-info/dependency_links.txt
+[3.298s] writing entry points to ../../../build/py_first_pkg/py_first_pkg.egg-info/entry_points.txt
+[3.307s] writing requirements to ../../../build/py_first_pkg/py_first_pkg.egg-info/requires.txt
+[3.314s] writing top-level names to ../../../build/py_first_pkg/py_first_pkg.egg-info/top_level.txt
+[3.398s] reading manifest file '../../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[3.424s] writing manifest file '../../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[3.433s] running build
+[3.440s] running build_py
+[3.453s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build
+[3.462s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib
+[3.470s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib/py_first_pkg
+[3.488s] copying py_first_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib/py_first_pkg
+[3.495s] copying py_first_pkg/hello_ros.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib/py_first_pkg
+[3.504s] running install
+[3.508s] running install_lib
+[3.512s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[3.537s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib/py_first_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[3.544s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build/lib/py_first_pkg/hello_ros.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[3.555s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg/__init__.py to __init__.cpython-38.pyc
+[3.588s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg/hello_ros.py to hello_ros.cpython-38.pyc
+[3.603s] running install_data
+[3.611s] running install_egg_info
+[3.619s] Copying ../../../build/py_first_pkg/py_first_pkg.egg-info to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg-0.0.0-py3.8.egg-info
+[3.767s] running install_scripts
+[3.800s] Installing hello_ros_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/py_first_pkg
+[3.835s] writing list of installed files to '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/install.log'
+[4.124s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_first_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/install.log --single-version-externally-managed

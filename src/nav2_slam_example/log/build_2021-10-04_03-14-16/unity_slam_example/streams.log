@@ -1,0 +1,25 @@
+[0.885s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example
+[1.269s] running develop
+[1.528s] running egg_info
+[1.534s] creating unity_slam_example.egg-info
+[1.540s] writing unity_slam_example.egg-info/PKG-INFO
+[1.551s] writing dependency_links to unity_slam_example.egg-info/dependency_links.txt
+[1.566s] writing requirements to unity_slam_example.egg-info/requires.txt
+[1.572s] writing top-level names to unity_slam_example.egg-info/top_level.txt
+[1.587s] writing manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+[1.637s] reading manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+[1.665s] writing manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+[1.783s] running build_ext
+[1.858s] Creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/site.py
+[1.891s] Creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity-slam-example.egg-link (link to .)
+[1.911s] 
+[1.916s] Installed /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example
+[1.920s] running install_data
+[1.924s] creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index
+[1.931s] creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index
+[1.941s] creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index/packages
+[1.944s] copying resource/unity_slam_example -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index/packages
+[1.971s] copying package.xml -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example
+[1.991s] copying rviz/nav2_unity.rviz -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example
+[2.025s] copying launch/unity_slam_example.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example
+[2.189s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example

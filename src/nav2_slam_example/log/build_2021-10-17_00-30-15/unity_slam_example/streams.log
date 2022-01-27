@@ -1,0 +1,15 @@
+[0.686s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example
+[0.947s] running develop
+[1.092s] running egg_info
+[1.097s] writing unity_slam_example.egg-info/PKG-INFO
+[1.110s] writing dependency_links to unity_slam_example.egg-info/dependency_links.txt
+[1.116s] writing requirements to unity_slam_example.egg-info/requires.txt
+[1.122s] writing top-level names to unity_slam_example.egg-info/top_level.txt
+[1.137s] reading manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+[1.151s] writing manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+[1.293s] running build_ext
+[1.340s] Creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity-slam-example.egg-link (link to .)
+[1.349s] 
+[1.352s] Installed /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example
+[1.361s] running install_data
+[1.509s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example

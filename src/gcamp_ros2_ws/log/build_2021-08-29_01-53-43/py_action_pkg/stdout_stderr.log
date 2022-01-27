@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating py_action_pkg.egg-info
+writing py_action_pkg.egg-info/PKG-INFO
+writing dependency_links to py_action_pkg.egg-info/dependency_links.txt
+writing entry points to py_action_pkg.egg-info/entry_points.txt
+writing requirements to py_action_pkg.egg-info/requires.txt
+writing top-level names to py_action_pkg.egg-info/top_level.txt
+writing manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+reading manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+writing manifest file 'py_action_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/site.py
+Creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py-action-pkg.egg-link (link to .)
+Installing fibonacci_action_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing fibonacci_action_client_cancel script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing fibonacci_action_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing fibonacci_action_server_cancel script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing img_subscriber_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing maze_action_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing maze_action_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing odom_sub_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+Installing robot_controller script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+
+Installed /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg
+running install_data
+creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/ament_index
+creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index
+creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index/packages
+copying resource/py_action_pkg -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg
+creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/launch
+copying launch/maze_action_srv.launch.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/launch

@@ -1,0 +1,54 @@
+[0.460s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[1.050s] Built target media_files
+[1.318s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[1.462s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo
+[1.513s] -- Install configuration: ""
+[1.530s] -- Execute custom install script
+[1.576s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+[1.580s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+[1.599s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+[1.615s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+[1.628s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+[1.644s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+[1.678s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+[1.697s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+[1.720s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+[1.745s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+[1.782s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+[1.811s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+[1.857s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+[1.885s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+[1.917s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+[1.956s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+[1.971s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+[1.996s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+[2.003s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+[2.025s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+[2.041s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+[2.070s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+[2.275s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+[2.291s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+[2.302s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+[2.320s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+[2.337s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+[2.346s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+[2.356s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+[2.363s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+[2.380s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+[2.384s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+[2.390s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+[2.402s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+[2.407s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.sh
+[2.414s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+[2.418s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.sh
+[2.421s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+[2.425s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bash
+[2.436s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.sh
+[2.439s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.zsh
+[2.443s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+[2.450s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+[2.460s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+[2.473s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+[2.478s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+[2.482s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.xml
+[2.506s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo

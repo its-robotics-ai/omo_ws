@@ -1,0 +1,27 @@
+[0.181s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2 -- -j8 -l8
+[0.660s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2 -- -j8 -l8
+[0.812s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2
+[0.858s] -- Install configuration: ""
+[0.899s] -- Execute custom install script
+[0.922s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch/navigation2.launch.py
+[0.953s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch/navigation2_rviz.launch.py
+[0.991s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/map/turtlebot3_world.pgm
+[1.039s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/map/turtlebot3_world.yaml
+[1.073s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/param/omo_r1mini.yaml
+[1.112s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/rviz/tb3_navigation2.rviz
+[1.158s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_navigation2
+[1.180s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_navigation2
+[1.224s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/ament_prefix_path.sh
+[1.290s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/ament_prefix_path.dsv
+[1.479s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/path.sh
+[1.503s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/path.dsv
+[1.541s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.bash
+[1.568s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.sh
+[1.591s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.zsh
+[1.645s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.dsv
+[1.659s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.dsv
+[1.713s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/ament_index/resource_index/packages/omo_r1mini_navigation2
+[1.766s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/cmake/omo_r1mini_navigation2Config.cmake
+[1.841s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/cmake/omo_r1mini_navigation2Config-version.cmake
+[1.861s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.xml
+[2.245s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2

@@ -1,0 +1,15 @@
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/package_run_dependencies/omo_r1mini
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/parent_prefix_path/omo_r1mini
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.sh
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.dsv
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/path.sh
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/path.dsv
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.bash
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.sh
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.zsh
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.dsv
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/package.dsv
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/packages/omo_r1mini
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig.cmake
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig-version.cmake
+/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/package.xml

@@ -1,0 +1,41 @@
+[0.533s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo -- -j8 -l8
+[0.737s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo -- -j8 -l8
+[0.915s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo
+[1.262s] -- Install configuration: ""
+[1.273s] -- Execute custom install script
+[1.281s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/empty_world.launch.py
+[1.293s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/omo_r1mini.launch.py
+[1.299s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/robot_state_publisher.launch.py
+[1.303s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/body_assy.dae
+[1.311s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/housing_body.dae
+[1.315s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/sensors/ydlidar_assy.dae
+[1.318s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel.dae
+[1.327s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_mount.dae
+[1.333s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_rotate.dae
+[1.369s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/wheel_assy.dae
+[1.395s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.config
+[1.417s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.sdf
+[1.437s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[1.462s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/wall.dae
+[1.490s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.config
+[1.500s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.sdf
+[1.525s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//rviz/tb3_gazebo.rviz
+[1.536s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/empty_worlds/omo_r1mini.model
+[1.548s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/turtlebot3_worlds/omo_r1mini.model
+[1.556s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_gazebo
+[1.575s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_gazebo
+[1.580s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.sh
+[1.587s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.dsv
+[1.591s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.sh
+[1.595s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.dsv
+[1.601s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.bash
+[1.624s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.sh
+[1.635s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.zsh
+[1.644s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.dsv
+[1.648s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.dsv
+[1.696s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/packages/omo_r1mini_gazebo
+[1.705s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.710s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig.cmake
+[1.721s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig-version.cmake
+[1.732s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.xml
+[1.987s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo

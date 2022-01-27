@@ -1,0 +1,18 @@
+[0.596s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo
+[0.792s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.268s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.294s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.408s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.056s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.173s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.194s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.255s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.274s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[3.618s] -- Configuring done
+[3.641s] -- Generating done
+[3.645s] -- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo

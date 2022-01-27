@@ -1,0 +1,95 @@
+[0.324s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg
+[0.858s] -- The C compiler identification is GNU 9.3.0
+[1.347s] -- The CXX compiler identification is GNU 9.3.0
+[1.441s] -- Check for working C compiler: /usr/bin/cc
+[2.861s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.864s] -- Detecting C compiler ABI info
+[3.889s] -- Detecting C compiler ABI info - done
+[3.918s] -- Detecting C compile features
+[3.926s] -- Detecting C compile features - done
+[3.956s] -- Check for working CXX compiler: /usr/bin/c++
+[4.759s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.765s] -- Detecting CXX compiler ABI info
+[5.638s] -- Detecting CXX compiler ABI info - done
+[5.678s] -- Detecting CXX compile features
+[5.681s] -- Detecting CXX compile features - done
+[5.733s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.815s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.822s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.351s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.535s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.975s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.076s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.429s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.481s] -- Looking for pthread.h
+[8.270s] -- Looking for pthread.h - found
+[8.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.082s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.086s] -- Looking for pthread_create in pthreads
+[9.831s] -- Looking for pthread_create in pthreads - not found
+[9.836s] -- Looking for pthread_create in pthread
+[10.693s] -- Looking for pthread_create in pthread - found
+[10.699s] -- Found Threads: TRUE  
+[10.958s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[11.299s] -- Found custom_interfaces: 0.0.0 (/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[11.494s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[11.573s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.105s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.126s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.134s] -- Configured cppcheck include dirs: 
+[12.138s] -- Configured cppcheck exclude dirs and/or files: 
+[12.148s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.154s] -- Configured cpplint exclude dirs and/or files: 
+[12.159s] -- Added test 'lint_cmake' to check CMake code style
+[12.179s] -- Added test 'uncrustify' to check C / C++ code style
+[12.181s] -- Configured uncrustify additional arguments: 
+[12.189s] -- Added test 'xmllint' to check XML markup files
+[12.327s] -- Configuring done
+[13.194s] -- Generating done
+[13.342s] -- Build files have been written to: /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg
+[13.360s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg
+[13.373s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[13.762s] [35m[1mScanning dependencies of target basic_client_node[0m
+[18.394s] [ 12%] [32mBuilding CXX object CMakeFiles/basic_client_node.dir/src/basic_client.cpp.o[0m
+[23.166s] [ 25%] [32m[1mLinking CXX executable basic_client_node[0m
+[25.950s] [ 25%] Built target basic_client_node
+[26.066s] [35m[1mScanning dependencies of target robot_turning_server_node[0m
+[31.751s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_turning_server_node.dir/src/robot_turning_server.cpp.o[0m
+[41.180s] [ 50%] [32m[1mLinking CXX executable robot_turning_server_node[0m
+[49.146s] [ 50%] Built target robot_turning_server_node
+[49.335s] [35m[1mScanning dependencies of target basic_server_node[0m
+[54.584s] [ 62%] [32mBuilding CXX object CMakeFiles/basic_server_node.dir/src/basic_server.cpp.o[0m
+[58.652s] [ 75%] [32m[1mLinking CXX executable basic_server_node[0m
+[60.610s] [ 75%] Built target basic_server_node
+[60.687s] [35m[1mScanning dependencies of target robot_turning_client_node[0m
+[64.071s] [ 87%] [32mBuilding CXX object CMakeFiles/robot_turning_client_node.dir/src/robot_turning_client.cpp.o[0m
+[68.779s] [100%] [32m[1mLinking CXX executable robot_turning_client_node[0m
+[70.613s] [100%] Built target robot_turning_client_node
+[70.678s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[70.733s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg
+[70.795s] -- Install configuration: ""
+[70.799s] -- Execute custom install script
+[70.813s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[70.874s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[70.925s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[71.350s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[71.423s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[71.489s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[71.554s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[71.684s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[71.743s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[71.808s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[71.875s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[71.932s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[71.992s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[72.066s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[72.242s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[72.323s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[72.394s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[72.467s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[72.533s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[72.599s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg

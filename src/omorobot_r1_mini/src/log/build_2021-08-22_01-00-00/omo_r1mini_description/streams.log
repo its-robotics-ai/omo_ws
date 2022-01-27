@@ -1,0 +1,57 @@
+[0.275s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description
+[0.808s] -- The C compiler identification is GNU 9.3.0
+[1.483s] -- The CXX compiler identification is GNU 9.3.0
+[1.592s] -- Check for working C compiler: /usr/bin/cc
+[2.322s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.331s] -- Detecting C compiler ABI info
+[3.132s] -- Detecting C compiler ABI info - done
+[3.176s] -- Detecting C compile features
+[3.189s] -- Detecting C compile features - done
+[3.229s] -- Check for working CXX compiler: /usr/bin/c++
+[4.056s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.061s] -- Detecting CXX compiler ABI info
+[5.789s] -- Detecting CXX compiler ABI info - done
+[5.805s] -- Detecting CXX compile features
+[5.814s] -- Detecting CXX compile features - done
+[5.826s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.837s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.900s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.914s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[6.920s] -- Configuring done
+[7.117s] -- Generating done
+[7.245s] -- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description
+[7.256s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description
+[7.267s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description -- -j8 -l8
+[7.368s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description -- -j8 -l8
+[7.448s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description
+[7.469s] -- Install configuration: ""
+[7.481s] -- Execute custom install script
+[7.543s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/body_assy.dae
+[7.581s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/housing_body.dae
+[7.635s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae
+[7.691s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel.dae
+[7.744s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_mount.dae
+[7.789s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_rotate.dae
+[7.833s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/wheel_assy.dae
+[7.903s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/rviz/model.rviz
+[7.968s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini.urdf
+[8.026s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description.launch.py
+[8.074s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description_rviz.launch.py
+[8.120s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_state_publisher.launch.py
+[8.198s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_description
+[8.249s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_description
+[8.333s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.sh
+[8.352s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.dsv
+[8.400s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.sh
+[8.447s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.dsv
+[8.493s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.bash
+[8.531s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.sh
+[8.583s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.zsh
+[8.613s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.dsv
+[8.640s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv
+[8.704s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/packages/omo_r1mini_description
+[8.755s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
+[8.797s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
+[8.830s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/package.xml
+[9.067s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/nav2slam_example/install/unity_slam_example:/workspaces/foxy_ws/src/nav2slam_example/install/ros_tcp_endpoint:/workspaces/foxy_ws/src/nav2slam_example/colcon_ws/install/unity_slam_example:/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description

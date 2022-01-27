@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+Installing default_server_endpoint script to /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+
+Installed /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint
+running install_data

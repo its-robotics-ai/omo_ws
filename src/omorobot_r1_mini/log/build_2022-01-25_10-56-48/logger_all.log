@@ -1,0 +1,381 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f300c829d60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f300c829d60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f300c7b3310>)
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/omo_ws/src/omorobot_r1_mini'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/build) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/build) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/build) ignored
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/install) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/install) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/install) ignored
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/log) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/log) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/log) ignored
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini' with type 'ros.ament_cmake' and name 'omo_r1mini'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_bringup) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_bringup' with type 'ros.ament_python' and name 'omo_r1mini_bringup'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_cartographer) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_cartographer' with type 'ros.ament_cmake' and name 'omo_r1mini_cartographer'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_description) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_description' with type 'ros.ament_cmake' and name 'omo_r1mini_description'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_gazebo) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_gazebo' with type 'ros.ament_cmake' and name 'omo_r1mini_gazebo'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_navigation2) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_navigation2' with type 'ros.ament_cmake' and name 'omo_r1mini_navigation2'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extension 'colcon_meta'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extensions ['ros']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/omo_r1mini-foxy/omo_r1mini_teleop) by extension 'ros'
+[0.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omo_r1mini-foxy/omo_r1mini_teleop' with type 'ros.ament_python' and name 'omo_r1mini_teleop'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.744s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_target' from command line to 'None'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.747s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.748s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.750s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.751s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description', 'symlink_install': False, 'test_result_base': None}
+[0.752s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.752s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.763s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.763s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.769s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.778s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.778s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.781s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/ydlidar_sdk', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_clean_cache' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_clean_first' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'cmake_force_configure' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'catkin_cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'omo_r1mini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'omo_r1mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini', 'merge_install': False, 'path': '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini', 'symlink_install': False, 'test_result_base': None}
+[0.800s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.802s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.803s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description' with build type 'ament_cmake'
+[0.804s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description'
+[0.815s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.833s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_cartographer' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_cartographer'
+[0.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_navigation2' with build type 'ament_cmake'
+[0.847s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_navigation2'
+[0.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.861s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop' with build type 'ament_python'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('omo_r1mini_teleop', 'ament_prefix_path')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/share/omo_r1mini_teleop/hook/ament_prefix_path.ps1'
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/share/omo_r1mini_teleop/hook/ament_prefix_path.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/share/omo_r1mini_teleop/hook/ament_prefix_path.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.892s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo' with build type 'ament_cmake'
+[0.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo'
+[0.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.905s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver'
+[0.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.927s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/omo_ws/src/omorobot_r1_mini/src/YDLidar-SDK'
+[0.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_cartographer -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_navigation2 -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2
+[1.368s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop'
+[1.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_description -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_cartographer -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer
+[1.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_navigation2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_navigation2 -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/omo_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo
+[1.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_description)
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description' for CMake module files
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk': /usr/bin/cmake --build /omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk -- -j8 -l8
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/bin'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/lib/pkgconfig/omo_r1mini_description.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/lib/python3.8/site-packages'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/omo_r1mini_description/package.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/omo_r1mini_description/package.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/omo_r1mini_description/package.bash'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/omo_r1mini_description/package.zsh'
+[1.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_description/share/colcon-core/packages/omo_r1mini_description)
+[1.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_cartographer)
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer' for CMake module files
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer' for CMake config files
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/bin'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/lib/pkgconfig/omo_r1mini_cartographer.pc'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/lib/python3.8/site-packages'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.bash'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.zsh'
+[1.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/colcon-core/packages/omo_r1mini_cartographer)
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_navigation2)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2' for CMake module files
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2' for CMake config files
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/bin'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/lib/pkgconfig/omo_r1mini_navigation2.pc'
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/lib/python3.8/site-packages'
+[1.829s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.dsv'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.bash'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.zsh'
+[1.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_navigation2/share/colcon-core/packages/omo_r1mini_navigation2)
+[1.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omo_r1mini_gazebo)
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo' for CMake module files
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo' for CMake config files
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/bin'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/lib/pkgconfig/omo_r1mini_gazebo.pc'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/lib/python3.8/site-packages'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.dsv'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.sh'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.bash'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.zsh'
+[1.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/omo_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/colcon-core/packages/omo_r1mini_gazebo)
+[2.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.330s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.381s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.383s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/omo_ws/src/omorobot_r1_mini/install/local_setup.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/omo_ws/src/omorobot_r1_mini/install/_local_setup_util_ps1.py'
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/omo_ws/src/omorobot_r1_mini/install/setup.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/omo_ws/src/omorobot_r1_mini/install/local_setup.sh'
+[2.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/omo_ws/src/omorobot_r1_mini/install/_local_setup_util_sh.py'
+[2.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/omo_ws/src/omorobot_r1_mini/install/setup.sh'
+[2.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/omo_ws/src/omorobot_r1_mini/install/local_setup.bash'
+[2.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/omo_ws/src/omorobot_r1_mini/install/setup.bash'
+[2.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/omo_ws/src/omorobot_r1_mini/install/local_setup.zsh'
+[2.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/omo_ws/src/omorobot_r1_mini/install/setup.zsh'

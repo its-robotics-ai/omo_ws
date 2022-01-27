@@ -1,0 +1,34 @@
+[0.582s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+[0.691s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.063s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.243s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.753s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.765s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.053s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.217s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.334s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.391s] CMake Error at CMakeLists.txt:25 (find_package):
+[2.403s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[2.408s]   has asked CMake to find a package configuration file provided by
+[2.411s]   "ydlidar_sdk", but CMake did not find one.
+[2.414s] 
+[2.417s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[2.423s]   any of the following names:
+[2.431s] 
+[2.436s]     ydlidar_sdkConfig.cmake
+[2.442s]     ydlidar_sdk-config.cmake
+[2.447s] 
+[2.453s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[2.459s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[2.474s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[2.479s]   has been installed.
+[2.483s] 
+[2.497s] 
+[2.523s] -- Configuring incomplete, errors occurred!
+[2.530s] See also "/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[2.534s] See also "/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver/CMakeFiles/CMakeError.log".
+[2.572s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver

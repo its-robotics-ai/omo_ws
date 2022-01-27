@@ -1,0 +1,39 @@
+[1.385s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --uninstall --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build
+[2.470s] running develop
+[2.479s] Removing /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo-r1mini-teleop.egg-link (link to .)
+[2.483s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --uninstall --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build
+[2.501s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_teleop build --build-base /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build install --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --record /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log --single-version-externally-managed
+[3.146s] running egg_info
+[3.151s] writing ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/PKG-INFO
+[3.158s] writing dependency_links to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/dependency_links.txt
+[3.168s] writing entry points to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/entry_points.txt
+[3.180s] writing requirements to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/requires.txt
+[3.191s] writing top-level names to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/top_level.txt
+[3.253s] reading manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+[3.294s] writing manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+[3.298s] running build
+[3.311s] running build_py
+[3.323s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build
+[3.327s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib
+[3.347s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop
+[3.356s] copying omo_r1mini_teleop/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop
+[3.386s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+[3.394s] copying omo_r1mini_teleop/script/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+[3.426s] copying omo_r1mini_teleop/script/teleop_keyboard.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+[3.445s] running install
+[3.454s] running install_lib
+[3.467s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop
+[3.477s] copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop
+[3.483s] creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+[3.495s] copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+[3.506s] copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script/teleop_keyboard.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+[3.525s] byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/__init__.py to __init__.cpython-38.pyc
+[3.550s] byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script/__init__.py to __init__.cpython-38.pyc
+[3.572s] byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[3.589s] running install_data
+[3.596s] running install_egg_info
+[3.603s] Copying ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info
+[3.733s] running install_scripts
+[3.757s] Installing teleop_keyboard script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/omo_r1mini_teleop
+[3.775s] writing list of installed files to '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log'
+[3.820s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_teleop build --build-base /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build install --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --record /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log --single-version-externally-managed

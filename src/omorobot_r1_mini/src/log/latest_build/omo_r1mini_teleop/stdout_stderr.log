@@ -1,0 +1,35 @@
+running develop
+Removing /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo-r1mini-teleop.egg-link (link to .)
+running egg_info
+writing ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/requires.txt
+writing top-level names to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/top_level.txt
+reading manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop
+copying omo_r1mini_teleop/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+copying omo_r1mini_teleop/script/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+copying omo_r1mini_teleop/script/teleop_keyboard.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script
+running install
+running install_lib
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop
+copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop
+creating /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script/__init__.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+copying /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build/lib/omo_r1mini_teleop/script/teleop_keyboard.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script
+byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info
+running install_scripts
+Installing teleop_keyboard script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/omo_r1mini_teleop
+writing list of installed files to '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log'

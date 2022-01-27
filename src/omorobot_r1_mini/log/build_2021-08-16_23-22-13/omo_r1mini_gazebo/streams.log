@@ -1,0 +1,86 @@
+[0.819s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo
+[1.407s] -- The C compiler identification is GNU 9.3.0
+[1.929s] -- The CXX compiler identification is GNU 9.3.0
+[2.015s] -- Check for working C compiler: /usr/bin/cc
+[2.998s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.005s] -- Detecting C compiler ABI info
+[3.905s] -- Detecting C compiler ABI info - done
+[3.940s] -- Detecting C compile features
+[3.955s] -- Detecting C compile features - done
+[4.010s] -- Check for working CXX compiler: /usr/bin/c++
+[4.995s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.004s] -- Detecting CXX compiler ABI info
+[5.949s] -- Detecting CXX compiler ABI info - done
+[6.003s] -- Detecting CXX compile features
+[6.010s] -- Detecting CXX compile features - done
+[6.057s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.587s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.799s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[6.804s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.892s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.129s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.218s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.693s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[7.826s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.969s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.993s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.018s] -- Looking for pthread.h
+[9.014s] -- Looking for pthread.h - found
+[9.021s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.884s] -- Looking for pthread_create in pthreads
+[10.543s] -- Looking for pthread_create in pthreads - not found
+[10.548s] -- Looking for pthread_create in pthread
+[11.692s] -- Looking for pthread_create in pthread - found
+[11.701s] -- Found Threads: TRUE  
+[11.979s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.129s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[13.067s] -- Configuring done
+[13.500s] -- Generating done
+[13.658s] -- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo
+[13.674s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo
+[13.709s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo -- -j8 -l8
+[13.845s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo -- -j8 -l8
+[13.928s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo
+[13.949s] -- Install configuration: ""
+[13.961s] -- Execute custom install script
+[13.991s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/empty_world.launch.py
+[14.027s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/omo_r1mini.launch.py
+[14.064s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/robot_state_publisher.launch.py
+[14.135s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/body_assy.dae
+[14.185s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/housing_body.dae
+[14.237s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/sensors/ydlidar_assy.dae
+[14.287s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel.dae
+[14.335s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_mount.dae
+[14.373s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_rotate.dae
+[14.418s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/wheel_assy.dae
+[14.473s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.config
+[14.500s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.sdf
+[14.545s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[14.586s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/wall.dae
+[14.639s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.config
+[14.688s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.sdf
+[14.732s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//rviz/tb3_gazebo.rviz
+[14.790s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/empty_worlds/omo_r1mini.model
+[14.855s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/turtlebot3_worlds/omo_r1mini.model
+[14.907s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_gazebo
+[14.956s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_gazebo
+[15.000s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.sh
+[15.045s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.dsv
+[15.095s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.sh
+[15.151s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.dsv
+[15.189s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.bash
+[15.239s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.sh
+[15.276s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.zsh
+[15.328s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.dsv
+[15.384s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.dsv
+[15.423s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/ament_index/resource_index/packages/omo_r1mini_gazebo
+[15.468s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.509s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig.cmake
+[15.551s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig-version.cmake
+[15.606s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.xml
+[15.650s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_gazebo

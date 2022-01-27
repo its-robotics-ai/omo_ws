@@ -1,0 +1,35 @@
+[0.391s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[1.028s] [ 28%] Built target topic_pub_oop_node
+[1.034s] [ 42%] Built target laser_sub_node
+[1.038s] [ 71%] Built target topic_pub_node
+[1.048s] [100%] Built target topic_sub_node
+[1.052s] [100%] Built target cmd_vel_pub_node
+[1.057s] [100%] Built target topic_sub_oop_node
+[1.061s] [100%] Built target parking_node
+[1.356s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[1.542s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg
+[2.128s] -- Install configuration: ""
+[2.132s] -- Execute custom install script
+[2.144s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/cmd_vel_pub_node
+[2.149s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/laser_sub_node
+[2.155s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parking_node
+[2.159s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_node
+[2.172s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_oop_node
+[2.178s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_node
+[2.188s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_oop_node
+[2.205s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pkg
+[2.209s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pkg
+[2.227s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.sh
+[2.231s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.dsv
+[2.245s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.sh
+[2.254s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.dsv
+[2.260s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.bash
+[2.263s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.sh
+[2.268s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.zsh
+[2.275s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.dsv
+[2.280s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv
+[2.334s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/packages/cpp_topic_pkg
+[2.353s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig.cmake
+[2.361s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig-version.cmake
+[2.374s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.xml
+[2.506s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg

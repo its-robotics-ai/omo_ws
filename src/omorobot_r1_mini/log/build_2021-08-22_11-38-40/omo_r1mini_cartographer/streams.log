@@ -1,0 +1,26 @@
+[0.160s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer -- -j8 -l8
+[0.731s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer -- -j8 -l8
+[0.843s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer
+[0.924s] -- Install configuration: ""
+[0.943s] -- Execute custom install script
+[0.990s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/config/omo_r1mini_lidar.lua
+[1.022s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer.launch.py
+[1.049s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer_rviz.launch.py
+[1.071s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/occupancy_grid.launch.py
+[1.094s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/rviz/omo_r1mini_cartographer.rviz
+[1.137s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_cartographer
+[1.174s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_cartographer
+[1.188s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.sh
+[1.227s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.dsv
+[1.253s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.sh
+[1.280s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.dsv
+[1.312s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.bash
+[1.333s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.sh
+[1.352s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.zsh
+[1.371s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.dsv
+[1.391s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv
+[1.501s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/ament_index/resource_index/packages/omo_r1mini_cartographer
+[1.538s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig.cmake
+[1.562s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig-version.cmake
+[1.577s] -- Up-to-date symlink: /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.xml
+[2.100s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_cartographer

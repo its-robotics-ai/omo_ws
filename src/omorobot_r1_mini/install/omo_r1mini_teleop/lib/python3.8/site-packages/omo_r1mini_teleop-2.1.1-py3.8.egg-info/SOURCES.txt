@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/PKG-INFO
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/dependency_links.txt
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/entry_points.txt
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/requires.txt
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/top_level.txt
+../../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/zip-safe
+omo_r1mini_teleop/__init__.py
+omo_r1mini_teleop/script/__init__.py
+omo_r1mini_teleop/script/teleop_keyboard.py
+resource/omo_r1mini_teleop

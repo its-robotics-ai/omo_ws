@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating ros_tcp_endpoint.egg-info
+writing ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/site.py
+Creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+Installing default_server_endpoint script to /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+
+Installed /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint
+running install_data
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ament_index
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ament_index/resource_index
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+copying resource/ros_tcp_endpoint -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+copying launch/endpoint.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch

@@ -1,0 +1,9 @@
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/install/strip.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/install/local.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/edit_cache.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/test.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/install.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/list_install_components.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/rebuild_cache.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/omo_r1mini_uninstall.dir
+/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini/CMakeFiles/uninstall.dir

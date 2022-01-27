@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so" "TARGETS" "custom_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

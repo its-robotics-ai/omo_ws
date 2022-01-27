@@ -1,0 +1,943 @@
+[0.000000] (-) TimerEvent: {}
+[0.000886] (omo_r1mini_cartographer) JobQueued: {'identifier': 'omo_r1mini_cartographer', 'dependencies': OrderedDict()}
+[0.001532] (omo_r1mini_description) JobQueued: {'identifier': 'omo_r1mini_description', 'dependencies': OrderedDict()}
+[0.002265] (omo_r1mini_gazebo) JobQueued: {'identifier': 'omo_r1mini_gazebo', 'dependencies': OrderedDict()}
+[0.003062] (omo_r1mini_navigation2) JobQueued: {'identifier': 'omo_r1mini_navigation2', 'dependencies': OrderedDict()}
+[0.003652] (omo_r1mini_teleop) JobQueued: {'identifier': 'omo_r1mini_teleop', 'dependencies': OrderedDict()}
+[0.004579] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.005398] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.006192] (omo_r1mini_bringup) JobQueued: {'identifier': 'omo_r1mini_bringup', 'dependencies': OrderedDict([('omo_r1mini_description', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description')])}
+[0.006684] (omo_r1mini) JobQueued: {'identifier': 'omo_r1mini', 'dependencies': OrderedDict([('omo_r1mini_cartographer', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer'), ('omo_r1mini_description', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description'), ('omo_r1mini_navigation2', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2'), ('omo_r1mini_teleop', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop'), ('omo_r1mini_bringup', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup')])}
+[0.007319] (omo_r1mini_description) JobStarted: {'identifier': 'omo_r1mini_description'}
+[0.016736] (omo_r1mini_cartographer) JobStarted: {'identifier': 'omo_r1mini_cartographer'}
+[0.027544] (omo_r1mini_navigation2) JobStarted: {'identifier': 'omo_r1mini_navigation2'}
+[0.039410] (omo_r1mini_teleop) JobStarted: {'identifier': 'omo_r1mini_teleop'}
+[0.063923] (omo_r1mini_gazebo) JobStarted: {'identifier': 'omo_r1mini_gazebo'}
+[0.076301] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.087256] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[0.098102] (-) TimerEvent: {}
+[0.106704] (omo_r1mini_description) JobProgress: {'identifier': 'omo_r1mini_description', 'progress': 'cmake'}
+[0.115973] (omo_r1mini_description) JobProgress: {'identifier': 'omo_r1mini_description', 'progress': 'build'}
+[0.117896] (omo_r1mini_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.136046] (omo_r1mini_cartographer) JobProgress: {'identifier': 'omo_r1mini_cartographer', 'progress': 'cmake'}
+[0.138033] (omo_r1mini_cartographer) JobProgress: {'identifier': 'omo_r1mini_cartographer', 'progress': 'build'}
+[0.141080] (omo_r1mini_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.168991] (omo_r1mini_navigation2) JobProgress: {'identifier': 'omo_r1mini_navigation2', 'progress': 'cmake'}
+[0.173875] (omo_r1mini_navigation2) JobProgress: {'identifier': 'omo_r1mini_navigation2', 'progress': 'build'}
+[0.176374] (omo_r1mini_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.203448] (-) TimerEvent: {}
+[0.305096] (-) TimerEvent: {}
+[0.406406] (-) TimerEvent: {}
+[0.508511] (-) TimerEvent: {}
+[0.521903] (omo_r1mini_gazebo) JobProgress: {'identifier': 'omo_r1mini_gazebo', 'progress': 'cmake'}
+[0.534499] (omo_r1mini_gazebo) JobProgress: {'identifier': 'omo_r1mini_gazebo', 'progress': 'build'}
+[0.538839] (omo_r1mini_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.571584] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.577415] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.580601] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.614365] (-) TimerEvent: {}
+[0.616219] (omo_r1mini_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.628203] (omo_r1mini_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.634231] (omo_r1mini_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.637275] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.645818] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.658892] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.670723] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.678082] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.682282] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.691096] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[0.696764] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[0.702002] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.756994] (-) TimerEvent: {}
+[0.759032] (omo_r1mini_description) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[0.764767] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.773371] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.779707] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.790858] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.813471] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:44 (cmake_policy):\n'}
+[0.818572] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0053 will be removed from a future version\n'}
+[0.822241] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.825488] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.828253] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.830839] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.834431] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.838386] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.841259] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.845254] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.848999] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:47 (cmake_policy):\n'}
+[0.851673] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0037 will be removed from a future version\n'}
+[0.854486] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.857461] (-) TimerEvent: {}
+[0.858357] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.867745] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.875888] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.879850] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.882295] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.885756] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.895530] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.902079] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):\n'}
+[0.905907] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0043 will be removed from a future version\n'}
+[0.914761] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.918256] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.923520] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.926279] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.929723] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.933546] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.941960] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.946998] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.951408] (ydlidar_sdk) StdoutLine: {'line': b'-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) \n'}
+[0.960782] (-) TimerEvent: {}
+[1.041777] (ydlidar_sdk) StdoutLine: {'line': b'-- build test is ON.....\n'}
+[1.058507] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):\n'}
+[1.062259] (-) TimerEvent: {}
+[1.063575] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0026 will be removed from a future version\n'}
+[1.072015] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[1.076900] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.085963] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.099901] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.104999] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.110237] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.118059] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.121857] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:161 (install_package)\n'}
+[1.127922] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.131823] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.136952] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.146492] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.152528] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.156211] (ydlidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at cmake/install_package.cmake:191 (install):\n'}
+[1.161490] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0062 is not set: Disallow install() of export() result.  Run\n'}
+[1.166478] (-) TimerEvent: {}
+[1.168059] (ydlidar_sdk) StderrLine: {'line': b'  "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy\n'}
+[1.178539] (ydlidar_sdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.184984] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.190930] (ydlidar_sdk) StderrLine: {'line': b'  The file\n'}
+[1.197036] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.212699] (ydlidar_sdk) StderrLine: {'line': b'    /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[1.218273] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.224586] (ydlidar_sdk) StderrLine: {'line': b'  was generated by the export() command.  It should not be installed with the\n'}
+[1.228612] (ydlidar_sdk) StderrLine: {'line': b'  install() command.  Use the install(EXPORT) mechanism instead.  See the\n'}
+[1.231860] (ydlidar_sdk) StderrLine: {'line': b'  cmake-packages(7) manual for more.\n'}
+[1.236298] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.242473] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.248613] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:161 (install_package)\n'}
+[1.253849] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.257997] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.261662] (omo_r1mini_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.266780] (-) TimerEvent: {}
+[1.268420] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.272581] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.278113] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[1.281724] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.284968] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.292034] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.298288] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.309312] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.340204] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.344295] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[1.349219] (ydlidar_sdk) StdoutLine: {'line': b'-- |         Resulting configuration for                             |\n'}
+[1.354544] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[1.366101] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ PLATFORM _____________________________\n'}
+[1.372225] (-) TimerEvent: {}
+[1.373805] (ydlidar_sdk) StdoutLine: {'line': b'--  Host                        : Linux5.10.25-linuxkitx86_64\n'}
+[1.381422] (ydlidar_sdk) StdoutLine: {'line': b'--  Is the system big endian?   :  No \n'}
+[1.390440] (ydlidar_sdk) StdoutLine: {'line': b'--  Word size (32/64 bit)       : 64\n'}
+[1.394729] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake version               : 3.16.3\n'}
+[1.403928] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake generator             : Unix Makefiles\n'}
+[1.408271] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake build tool            : /usr/bin/make\n'}
+[1.413427] (ydlidar_sdk) StdoutLine: {'line': b'--  Compiler                    : GNU\n'}
+[1.416818] (ydlidar_sdk) StdoutLine: {'line': b'--  Configuration               : \n'}
+[1.421716] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.425722] (ydlidar_sdk) StdoutLine: {'line': b'--  __________________________ OPTIONS _____________________________\n'}
+[1.428879] (ydlidar_sdk) StdoutLine: {'line': b'--  Build YDLidar-SDK as a shared library?\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[1.435738] (ydlidar_sdk) StdoutLine: {'line': b'--  Build Examples?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[1.441045] (ydlidar_sdk) StdoutLine: {'line': b'--  Build C Sharp API?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[1.444584] (ydlidar_sdk) StdoutLine: {'line': b'--  Build TEST?  \t\t\t\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[1.447860] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.457365] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ INSTALL _____________________\n'}
+[1.461643] (ydlidar_sdk) StdoutLine: {'line': b'--  Install prefix                    : /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk\n'}
+[1.464702] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.473805] (-) TimerEvent: {}
+[1.475602] (ydlidar_sdk) StdoutLine: {'line': b'--  _______________________ WRAPPERS/BINDINGS ______________________\n'}
+[1.478830] (ydlidar_sdk) StdoutLine: {'line': b'--  Python bindings (pyydlidar)   :  No \n'}
+[1.488353] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: Swig found?       :  No [Version: ]\n'}
+[1.491709] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: PythonLibs found?  : Yes [Version: 3.8.10]\n'}
+[1.497115] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.501542] (ydlidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.509293] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Generating done\n'}
+[1.514348] (omo_r1mini_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.524462] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.574119] (-) TimerEvent: {}
+[1.582877] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer\n'}
+[1.598540] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.604522] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.612762] (omo_r1mini_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/omo_r1mini_teleop', 'build', '--build-base', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build', 'install', '--prefix', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop', '--record', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'dfeeedd970e6', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/opt/ros/foxy', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'graphics,utility,compute', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop', 'PYTHONPATH': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.656423] (omo_r1mini_description) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description\n'}
+[1.660812] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2\n'}
+[1.665393] (omo_r1mini_cartographer) CommandEnded: {'returncode': 0}
+[1.679391] (-) TimerEvent: {}
+[1.692256] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.700578] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.708385] (omo_r1mini_description) CommandEnded: {'returncode': 0}
+[1.731311] (omo_r1mini_cartographer) JobProgress: {'identifier': 'omo_r1mini_cartographer', 'progress': 'install'}
+[1.732409] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.769867] (omo_r1mini_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_cartographer'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.779697] (-) TimerEvent: {}
+[1.782621] (omo_r1mini_description) JobProgress: {'identifier': 'omo_r1mini_description', 'progress': 'install'}
+[1.783564] (omo_r1mini_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_description'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.793016] (omo_r1mini_navigation2) CommandEnded: {'returncode': 0}
+[1.797472] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.801263] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.804420] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/config/omo_r1mini_lidar.lua\n'}
+[1.809242] (omo_r1mini_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.823546] (omo_r1mini_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.828719] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/body_assy.dae\n'}
+[1.836761] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.840630] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer.launch.py\n'}
+[1.865635] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/housing_body.dae\n'}
+[1.892986] (-) TimerEvent: {}
+[1.895551] (omo_r1mini_navigation2) JobProgress: {'identifier': 'omo_r1mini_navigation2', 'progress': 'install'}
+[1.896076] (omo_r1mini_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_navigation2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.900241] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer_rviz.launch.py\n'}
+[1.903948] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.908905] (omo_r1mini_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.938592] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae\n'}
+[1.943741] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/occupancy_grid.launch.py\n'}
+[1.955027] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.985235] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel.dae\n'}
+[1.992390] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/rviz/omo_r1mini_cartographer.rviz\n'}
+[1.996190] (-) TimerEvent: {}
+[2.037008] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_mount.dae\n'}
+[2.042767] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_cartographer\n'}
+[2.083808] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_rotate.dae\n'}
+[2.098709] (-) TimerEvent: {}
+[2.105717] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_cartographer\n'}
+[2.128423] (omo_r1mini_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.137341] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/wheel_assy.dae\n'}
+[2.142332] (omo_r1mini_teleop) StdoutLine: {'line': b'writing ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/PKG-INFO\n'}
+[2.148202] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.sh\n'}
+[2.151818] (omo_r1mini_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/dependency_links.txt\n'}
+[2.156709] (omo_r1mini_teleop) StdoutLine: {'line': b'writing entry points to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/entry_points.txt\n'}
+[2.160499] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.164718] (omo_r1mini_teleop) StdoutLine: {'line': b'writing requirements to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/requires.txt\n'}
+[2.175714] (omo_r1mini_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/top_level.txt\n'}
+[2.181472] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.185075] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/rviz/model.rviz\n'}
+[2.188568] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.dsv\n'}
+[2.198926] (-) TimerEvent: {}
+[2.217547] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini.urdf\n'}
+[2.224285] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.sh\n'}
+[2.250960] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description.launch.py\n'}
+[2.256368] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.260340] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.dsv\n'}
+[2.280892] (omo_r1mini_teleop) StdoutLine: {'line': b"reading manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'\n"}
+[2.288575] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[2.292732] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description_rviz.launch.py\n'}
+[2.299145] (-) TimerEvent: {}
+[2.301266] (omo_r1mini_teleop) StdoutLine: {'line': b"writing manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'\n"}
+[2.307306] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.bash\n'}
+[2.311080] (omo_r1mini_teleop) StdoutLine: {'line': b'running build\n'}
+[2.326036] (omo_r1mini_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.330337] (omo_r1mini_teleop) StdoutLine: {'line': b'running install\n'}
+[2.342329] (omo_r1mini_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[2.346495] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.353762] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_state_publisher.launch.py\n'}
+[2.363926] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.sh\n'}
+[2.374441] (omo_r1mini_teleop) StdoutLine: {'line': b'running install_data\n'}
+[2.378472] (omo_r1mini_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.390668] (omo_r1mini_teleop) StdoutLine: {'line': b"removing '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info' (and everything under it)\n"}
+[2.395260] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_description\n'}
+[2.402928] (-) TimerEvent: {}
+[2.404731] (omo_r1mini_teleop) StdoutLine: {'line': b'Copying ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info\n'}
+[2.412845] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.zsh\n'}
+[2.432393] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_description\n'}
+[2.442398] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.dsv\n'}
+[2.473593] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.sh\n'}
+[2.479606] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv\n'}
+[2.503260] (-) TimerEvent: {}
+[2.509070] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/ament_index/resource_index/packages/omo_r1mini_cartographer\n'}
+[2.518550] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.dsv\n'}
+[2.539259] (omo_r1mini_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[2.546142] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.sh\n'}
+[2.550520] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig.cmake\n'}
+[2.573378] (omo_r1mini_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/omo_r1mini_teleop\n'}
+[2.585541] (omo_r1mini_teleop) StdoutLine: {'line': b"writing list of installed files to '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log'\n"}
+[2.590770] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig-version.cmake\n'}
+[2.596870] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.dsv\n'}
+[2.609387] (-) TimerEvent: {}
+[2.625795] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.637082] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.642050] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch/navigation2.launch.py\n'}
+[2.647000] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch/navigation2_rviz.launch.py\n'}
+[2.657454] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/map/turtlebot3_world.pgm\n'}
+[2.663954] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/map/turtlebot3_world.yaml\n'}
+[2.668853] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/param/omo_r1mini.yaml\n'}
+[2.676645] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/rviz/tb3_navigation2.rviz\n'}
+[2.681943] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_navigation2\n'}
+[2.689585] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_navigation2\n'}
+[2.694579] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/ament_prefix_path.sh\n'}
+[2.707493] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/ament_prefix_path.dsv\n'}
+[2.714215] (-) TimerEvent: {}
+[2.717544] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/path.sh\n'}
+[2.722984] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/environment/path.dsv\n'}
+[2.726951] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.bash\n'}
+[2.731514] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.sh\n'}
+[2.740686] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.zsh\n'}
+[2.748478] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/local_setup.dsv\n'}
+[2.762131] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.dsv\n'}
+[2.766618] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/ament_index/resource_index/packages/omo_r1mini_navigation2\n'}
+[2.772815] (omo_r1mini_teleop) CommandEnded: {'returncode': 0}
+[2.782635] (omo_r1mini_cartographer) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.xml\n'}
+[2.787696] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.bash\n'}
+[2.792616] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.sh\n'}
+[2.802112] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/cmake/omo_r1mini_navigation2Config.cmake\n'}
+[2.815973] (-) TimerEvent: {}
+[2.817238] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.zsh\n'}
+[2.821577] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/cmake/omo_r1mini_navigation2Config-version.cmake\n'}
+[2.832505] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.836813] (omo_r1mini_navigation2) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/package.xml\n'}
+[2.840865] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.dsv\n'}
+[2.845466] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.853464] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv\n'}
+[2.858473] (omo_r1mini_teleop) JobEnded: {'identifier': 'omo_r1mini_teleop', 'rc': 0}
+[2.869998] (omo_r1mini_navigation2) CommandEnded: {'returncode': 0}
+[2.874475] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/ament_index/resource_index/packages/omo_r1mini_description\n'}
+[2.888589] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake\n'}
+[2.916220] (-) TimerEvent: {}
+[2.944597] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake\n'}
+[2.969236] (omo_r1mini_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description/share/omo_r1mini_description/package.xml\n'}
+[3.016397] (-) TimerEvent: {}
+[3.026192] (omo_r1mini_cartographer) CommandEnded: {'returncode': 0}
+[3.086422] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.092533] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src\n'}
+[3.098317] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.116601] (-) TimerEvent: {}
+[3.125896] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.201464] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.205882] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.214325] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.220762] (-) TimerEvent: {}
+[3.243571] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.263033] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo\n'}
+[3.276526] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.284262] (omo_r1mini_description) CommandEnded: {'returncode': 0}
+[3.321011] (-) TimerEvent: {}
+[3.361866] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.370879] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.378768] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.384922] (ydlidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[3.421257] (-) TimerEvent: {}
+[3.425883] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.521463] (-) TimerEvent: {}
+[3.544839] (omo_r1mini_navigation2) JobEnded: {'identifier': 'omo_r1mini_navigation2', 'rc': 0}
+[3.558225] (omo_r1mini_gazebo) CommandEnded: {'returncode': 0}
+[3.583249] (ydlidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk\n'}
+[3.621709] (-) TimerEvent: {}
+[3.660320] (omo_r1mini_cartographer) JobEnded: {'identifier': 'omo_r1mini_cartographer', 'rc': 0}
+[3.670292] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_sdk\x1b[0m\n'}
+[3.722459] (-) TimerEvent: {}
+[3.793336] (omo_r1mini_description) JobEnded: {'identifier': 'omo_r1mini_description', 'rc': 0}
+[3.800753] (omo_r1mini_bringup) JobStarted: {'identifier': 'omo_r1mini_bringup'}
+[3.801746] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.822689] (-) TimerEvent: {}
+[3.844940] (omo_r1mini_gazebo) JobProgress: {'identifier': 'omo_r1mini_gazebo', 'progress': 'install'}
+[3.852604] (omo_r1mini_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_gazebo'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.877740] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.886698] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.896329] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/empty_world.launch.py\n'}
+[3.923033] (-) TimerEvent: {}
+[3.931591] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver\n'}
+[3.935183] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/omo_r1mini.launch.py\n'}
+[3.983405] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//launch/robot_state_publisher.launch.py\n'}
+[4.023384] (-) TimerEvent: {}
+[4.056970] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/body_assy.dae\n'}
+[4.066405] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[4.070896] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[4.096233] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/bases/housing_body.dae\n'}
+[4.124069] (-) TimerEvent: {}
+[4.144119] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/sensors/ydlidar_assy.dae\n'}
+[4.180442] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel.dae\n'}
+[4.215761] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_mount.dae\n'}
+[4.224333] (-) TimerEvent: {}
+[4.250401] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/caster_wheel_rotate.dae\n'}
+[4.288597] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/meshes/wheels/wheel_assy.dae\n'}
+[4.324672] (-) TimerEvent: {}
+[4.325632] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.config\n'}
+[4.361995] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/omo_r1mini/model.sdf\n'}
+[4.392702] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[4.424879] (-) TimerEvent: {}
+[4.426551] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[4.459809] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.config\n'}
+[4.484898] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//models/turtlebot3_world/model.sdf\n'}
+[4.519285] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//rviz/tb3_gazebo.rviz\n'}
+[4.525215] (-) TimerEvent: {}
+[4.559291] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/empty_worlds/omo_r1mini.model\n'}
+[4.586075] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo//worlds/turtlebot3_worlds/omo_r1mini.model\n'}
+[4.620943] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_gazebo\n'}
+[4.625379] (-) TimerEvent: {}
+[4.646565] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_gazebo\n'}
+[4.677667] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.sh\n'}
+[4.718173] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/ament_prefix_path.dsv\n'}
+[4.725571] (-) TimerEvent: {}
+[4.751707] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.sh\n'}
+[4.790926] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/environment/path.dsv\n'}
+[4.826368] (-) TimerEvent: {}
+[4.834893] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.bash\n'}
+[4.876490] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.sh\n'}
+[4.907240] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.zsh\n'}
+[4.926523] (-) TimerEvent: {}
+[4.935033] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/local_setup.dsv\n'}
+[4.968176] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.dsv\n'}
+[4.995643] (omo_r1mini_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/omo_r1mini_bringup', 'build', '--build-base', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_bringup/build', 'install', '--prefix', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup', '--record', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_bringup/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'dfeeedd970e6', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/opt/ros/foxy', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'graphics,utility,compute', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_bringup', 'PYTHONPATH': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description'}, 'shell': False}
+[5.027794] (-) TimerEvent: {}
+[5.028742] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/ament_index/resource_index/packages/omo_r1mini_gazebo\n'}
+[5.034996] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.067995] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig.cmake\n'}
+[5.097766] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/cmake/omo_r1mini_gazeboConfig-version.cmake\n'}
+[5.128047] (-) TimerEvent: {}
+[5.137508] (omo_r1mini_gazebo) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_gazebo/share/omo_r1mini_gazebo/package.xml\n'}
+[5.168479] (omo_r1mini_gazebo) CommandEnded: {'returncode': 0}
+[5.228268] (-) TimerEvent: {}
+[5.329341] (-) TimerEvent: {}
+[5.333676] (omo_r1mini_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[5.337308] (omo_r1mini_bringup) StdoutLine: {'line': b'writing ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/PKG-INFO\n'}
+[5.342961] (omo_r1mini_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/dependency_links.txt\n'}
+[5.351024] (omo_r1mini_bringup) StdoutLine: {'line': b'writing entry points to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/entry_points.txt\n'}
+[5.355845] (omo_r1mini_bringup) StdoutLine: {'line': b'writing requirements to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/requires.txt\n'}
+[5.366285] (omo_r1mini_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/top_level.txt\n'}
+[5.429607] (-) TimerEvent: {}
+[5.451794] (omo_r1mini_bringup) StdoutLine: {'line': b"reading manifest file '../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'\n"}
+[5.465111] (omo_r1mini_bringup) StdoutLine: {'line': b"writing manifest file '../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'\n"}
+[5.469058] (omo_r1mini_bringup) StdoutLine: {'line': b'running build\n'}
+[5.471565] (omo_r1mini_bringup) StdoutLine: {'line': b'running build_py\n'}
+[5.480653] (omo_r1mini_gazebo) JobEnded: {'identifier': 'omo_r1mini_gazebo', 'rc': 0}
+[5.494232] (omo_r1mini_bringup) StdoutLine: {'line': b'running install\n'}
+[5.497048] (omo_r1mini_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[5.520887] (omo_r1mini_bringup) StdoutLine: {'line': b'running install_data\n'}
+[5.529795] (-) TimerEvent: {}
+[5.530672] (omo_r1mini_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.533835] (omo_r1mini_bringup) StdoutLine: {'line': b"removing '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[5.546181] (omo_r1mini_bringup) StdoutLine: {'line': b'Copying ../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup-0.0.1-py3.8.egg-info\n'}
+[5.630112] (-) TimerEvent: {}
+[5.680459] (omo_r1mini_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[5.711721] (omo_r1mini_bringup) StdoutLine: {'line': b'Installing omo_r1mini_mcu_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/omo_r1mini_bringup\n'}
+[5.722675] (omo_r1mini_bringup) StdoutLine: {'line': b'Installing omo_r1mini_motor_setting_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/omo_r1mini_bringup\n'}
+[5.729920] (omo_r1mini_bringup) StdoutLine: {'line': b"writing list of installed files to '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_bringup/install.log'\n"}
+[5.733088] (-) TimerEvent: {}
+[5.768186] (omo_r1mini_bringup) CommandEnded: {'returncode': 0}
+[5.833204] (-) TimerEvent: {}
+[5.894426] (omo_r1mini_bringup) JobEnded: {'identifier': 'omo_r1mini_bringup', 'rc': 0}
+[5.906633] (omo_r1mini) JobStarted: {'identifier': 'omo_r1mini'}
+[5.933458] (-) TimerEvent: {}
+[5.984264] (omo_r1mini) JobProgress: {'identifier': 'omo_r1mini', 'progress': 'cmake'}
+[6.000437] (omo_r1mini) JobProgress: {'identifier': 'omo_r1mini', 'progress': 'build'}
+[6.006345] (omo_r1mini) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini', '--', '-j8', '-l8'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini'), ('PYTHONPATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/python3.8/site-packages:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer:/opt/ros/foxy')]), 'shell': False}
+[6.033593] (-) TimerEvent: {}
+[6.119672] (omo_r1mini) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.133799] (-) TimerEvent: {}
+[6.167672] (omo_r1mini) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.234208] (-) TimerEvent: {}
+[6.335098] (-) TimerEvent: {}
+[6.436264] (-) TimerEvent: {}
+[6.442386] (omo_r1mini) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.536492] (-) TimerEvent: {}
+[6.637586] (-) TimerEvent: {}
+[6.738740] (-) TimerEvent: {}
+[6.783630] (omo_r1mini) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.839018] (-) TimerEvent: {}
+[6.939991] (-) TimerEvent: {}
+[6.964191] (omo_r1mini) StdoutLine: {'line': b'-- Generating done\n'}
+[7.031047] (omo_r1mini) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini\n'}
+[7.040165] (-) TimerEvent: {}
+[7.082542] (omo_r1mini) CommandEnded: {'returncode': 0}
+[7.123462] (omo_r1mini) JobProgress: {'identifier': 'omo_r1mini', 'progress': 'install'}
+[7.126984] (omo_r1mini) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini'), ('PYTHONPATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_bringup/lib/python3.8/site-packages:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_navigation2:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_description:/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_cartographer:/opt/ros/foxy')]), 'shell': False}
+[7.140117] (omo_r1mini) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.143169] (-) TimerEvent: {}
+[7.146595] (omo_r1mini) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.152976] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/package_run_dependencies/omo_r1mini\n'}
+[7.186132] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/parent_prefix_path/omo_r1mini\n'}
+[7.215439] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.sh\n'}
+[7.243278] (-) TimerEvent: {}
+[7.245096] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.dsv\n'}
+[7.278288] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/path.sh\n'}
+[7.301105] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/environment/path.dsv\n'}
+[7.327746] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.bash\n'}
+[7.343564] (-) TimerEvent: {}
+[7.354721] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.sh\n'}
+[7.385694] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.zsh\n'}
+[7.399313] (ydlidar_sdk) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o\x1b[0m\n'}
+[7.416596] (ydlidar_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o\x1b[0m\n'}
+[7.427389] (ydlidar_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o\x1b[0m\n'}
+[7.438043] (ydlidar_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o\x1b[0m\n'}
+[7.447684] (-) TimerEvent: {}
+[7.449680] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/local_setup.dsv\n'}
+[7.462481] (ydlidar_sdk) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o\x1b[0m\n'}
+[7.470763] (ydlidar_sdk) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o\x1b[0m\n'}
+[7.478283] (ydlidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o\x1b[0m\n'}
+[7.485094] (ydlidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o\x1b[0m\n'}
+[7.506297] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/package.dsv\n'}
+[7.529352] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/ament_index/resource_index/packages/omo_r1mini\n'}
+[7.548430] (-) TimerEvent: {}
+[7.570590] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig.cmake\n'}
+[7.615949] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig-version.cmake\n'}
+[7.642206] (omo_r1mini) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini/share/omo_r1mini/package.xml\n'}
+[7.650692] (-) TimerEvent: {}
+[7.680391] (omo_r1mini) CommandEnded: {'returncode': 0}
+[7.750889] (-) TimerEvent: {}
+[7.853957] (-) TimerEvent: {}
+[7.956411] (-) TimerEvent: {}
+[8.059774] (-) TimerEvent: {}
+[8.102777] (ydlidar_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o\x1b[0m\n'}
+[8.124944] (omo_r1mini) JobEnded: {'identifier': 'omo_r1mini', 'rc': 0}
+[8.160062] (-) TimerEvent: {}
+[8.261286] (-) TimerEvent: {}
+[8.362817] (-) TimerEvent: {}
+[8.465056] (-) TimerEvent: {}
+[8.567336] (-) TimerEvent: {}
+[8.669651] (-) TimerEvent: {}
+[8.770588] (-) TimerEvent: {}
+[8.873448] (-) TimerEvent: {}
+[8.874861] (ydlidar_sdk) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o\x1b[0m\n'}
+[8.973695] (-) TimerEvent: {}
+[9.075588] (-) TimerEvent: {}
+[9.176877] (-) TimerEvent: {}
+[9.179983] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[9.277045] (-) TimerEvent: {}
+[9.379225] (-) TimerEvent: {}
+[9.452834] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[9.479520] (-) TimerEvent: {}
+[9.515118] (ydlidar_sdk) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o\x1b[0m\n'}
+[9.579722] (-) TimerEvent: {}
+[9.683595] (-) TimerEvent: {}
+[9.786077] (-) TimerEvent: {}
+[9.887493] (-) TimerEvent: {}
+[9.993934] (-) TimerEvent: {}
+[10.094944] (-) TimerEvent: {}
+[10.197279] (-) TimerEvent: {}
+[10.299328] (-) TimerEvent: {}
+[10.401106] (-) TimerEvent: {}
+[10.469763] (ydlidar_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o\x1b[0m\n'}
+[10.501391] (-) TimerEvent: {}
+[10.511963] (ydlidar_sdk) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o\x1b[0m\n'}
+[10.601806] (-) TimerEvent: {}
+[10.702941] (-) TimerEvent: {}
+[10.804477] (-) TimerEvent: {}
+[10.905582] (-) TimerEvent: {}
+[11.006545] (-) TimerEvent: {}
+[11.107849] (-) TimerEvent: {}
+[11.209236] (-) TimerEvent: {}
+[11.311306] (-) TimerEvent: {}
+[11.415998] (-) TimerEvent: {}
+[11.517205] (-) TimerEvent: {}
+[11.618602] (-) TimerEvent: {}
+[11.720689] (-) TimerEvent: {}
+[11.821813] (-) TimerEvent: {}
+[11.925790] (-) TimerEvent: {}
+[12.027036] (-) TimerEvent: {}
+[12.128026] (-) TimerEvent: {}
+[12.229244] (-) TimerEvent: {}
+[12.331071] (-) TimerEvent: {}
+[12.433676] (-) TimerEvent: {}
+[12.544279] (-) TimerEvent: {}
+[12.645634] (-) TimerEvent: {}
+[12.747020] (-) TimerEvent: {}
+[12.848422] (-) TimerEvent: {}
+[12.893976] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[12.896896] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.899560] (ydlidar_ros2_driver) StderrLine: {'line': b'  163 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[12.901968] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.904369] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.906865] (ydlidar_ros2_driver) StderrLine: {'line': b'  164 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[12.909289] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.911589] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.914343] (ydlidar_ros2_driver) StderrLine: {'line': b'  165 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[12.916385] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[12.918287] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[12.920419] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.923182] (ydlidar_ros2_driver) StderrLine: {'line': b'  173 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[12.925857] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.928042] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.930287] (ydlidar_ros2_driver) StderrLine: {'line': b'  174 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[12.932406] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.934551] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.936718] (ydlidar_ros2_driver) StderrLine: {'line': b'  175 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[12.938945] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[12.948634] (-) TimerEvent: {}
+[13.049773] (-) TimerEvent: {}
+[13.150998] (-) TimerEvent: {}
+[13.252184] (-) TimerEvent: {}
+[13.334804] (ydlidar_sdk) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX static library libydlidar_sdk.a\x1b[0m\n'}
+[13.352423] (-) TimerEvent: {}
+[13.453584] (-) TimerEvent: {}
+[13.554644] (-) TimerEvent: {}
+[13.655872] (-) TimerEvent: {}
+[13.757478] (-) TimerEvent: {}
+[13.858876] (-) TimerEvent: {}
+[13.909847] (ydlidar_sdk) StdoutLine: {'line': b'[ 58%] Built target ydlidar_sdk\n'}
+[13.949652] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tof_test\x1b[0m\n'}
+[13.954291] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_test\x1b[0m\n'}
+[13.958305] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_c_api_test\x1b[0m\n'}
+[13.962495] (-) TimerEvent: {}
+[13.964053] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target etlidar_test\x1b[0m\n'}
+[13.970751] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_test\x1b[0m\n'}
+[14.062745] (-) TimerEvent: {}
+[14.164757] (-) TimerEvent: {}
+[14.179740] (ydlidar_sdk) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o\x1b[0m\n'}
+[14.198470] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[Kcc1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcommand line option \xe2\x80\x98\x1b[01m\x1b[K-std=c++11\x1b[m\x1b[K\xe2\x80\x99 is valid for C++/ObjC++ but not for C\n'}
+[14.265129] (-) TimerEvent: {}
+[14.366518] (-) TimerEvent: {}
+[14.468708] (-) TimerEvent: {}
+[14.504319] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o\x1b[0m\n'}
+[14.517983] (ydlidar_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o\x1b[0m\n'}
+[14.530648] (ydlidar_sdk) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o\x1b[0m\n'}
+[14.568941] (-) TimerEvent: {}
+[14.591627] (ydlidar_sdk) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o\x1b[0m\n'}
+[14.663452] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/lidar_c_api_test.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmain\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.672360] (-) TimerEvent: {}
+[14.674674] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/lidar_c_api_test.c:102:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[14.679822] (ydlidar_sdk) StderrLine: {'line': b'  102 |             fprintf(stdout, "Scan received[\x1b[01;35m\x1b[K%llu\x1b[m\x1b[K]: %u ranges is [%f]Hz\\n",\n'}
+[14.685412] (ydlidar_sdk) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[14.688857] (ydlidar_sdk) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[14.693027] (ydlidar_sdk) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[14.703309] (ydlidar_sdk) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[14.710850] (ydlidar_sdk) StderrLine: {'line': b'  103 |                     \x1b[32m\x1b[Kscan.stamp\x1b[m\x1b[K,\n'}
+[14.715912] (ydlidar_sdk) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                 \n'}
+[14.726830] (ydlidar_sdk) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[14.731459] (ydlidar_sdk) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[14.772672] (-) TimerEvent: {}
+[14.778242] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ../lidar_c_api_test\x1b[0m\n'}
+[14.872913] (-) TimerEvent: {}
+[14.974129] (-) TimerEvent: {}
+[15.075174] (-) TimerEvent: {}
+[15.177950] (-) TimerEvent: {}
+[15.279549] (-) TimerEvent: {}
+[15.381049] (-) TimerEvent: {}
+[15.482195] (-) TimerEvent: {}
+[15.583656] (-) TimerEvent: {}
+[15.685093] (-) TimerEvent: {}
+[15.787810] (-) TimerEvent: {}
+[15.889223] (-) TimerEvent: {}
+[15.990358] (-) TimerEvent: {}
+[16.092217] (-) TimerEvent: {}
+[16.193084] (-) TimerEvent: {}
+[16.301020] (-) TimerEvent: {}
+[16.402862] (-) TimerEvent: {}
+[16.504279] (-) TimerEvent: {}
+[16.605566] (-) TimerEvent: {}
+[16.617946] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/etlidar_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.621714] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/etlidar_test.cpp:178:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[16.625025] (ydlidar_sdk) StderrLine: {'line': b'  178 |       fprintf(stdout, "Scan received[\x1b[01;35m\x1b[K%llu\x1b[m\x1b[K]: %u ranges is [%f]Hz\\n",\n'}
+[16.627910] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[16.632155] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[16.636765] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[16.646800] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[16.651670] (ydlidar_sdk) StderrLine: {'line': b'  179 |               \x1b[32m\x1b[Kscan.stamp\x1b[m\x1b[K,\n'}
+[16.657146] (ydlidar_sdk) StderrLine: {'line': b'      |               \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                 \n'}
+[16.663990] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.668541] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[16.672205] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/tof_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.675544] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/tof_test.cpp:259:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[16.679358] (ydlidar_sdk) StderrLine: {'line': b'  259 |       fprintf(stdout, "Scan received[\x1b[01;35m\x1b[K%llu\x1b[m\x1b[K]: %u ranges is [%f]Hz\\n",\n'}
+[16.684174] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[16.689000] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[16.701320] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[16.708325] (-) TimerEvent: {}
+[16.709342] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[16.713805] (ydlidar_sdk) StderrLine: {'line': b'  260 |               \x1b[32m\x1b[Kscan.stamp\x1b[m\x1b[K,\n'}
+[16.720416] (ydlidar_sdk) StderrLine: {'line': b'      |               \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                 \n'}
+[16.725013] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.732810] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[16.802214] (ydlidar_sdk) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable ../etlidar_test\x1b[0m\n'}
+[16.808492] (-) TimerEvent: {}
+[16.823814] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/ydlidar_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.828445] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/samples/ydlidar_test.cpp:262:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[16.832277] (ydlidar_sdk) StderrLine: {'line': b'  262 |       fprintf(stdout, "Scan received[\x1b[01;35m\x1b[K%llu\x1b[m\x1b[K]: %u ranges is [%f]Hz\\n",\n'}
+[16.835550] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[16.842253] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[16.846344] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[16.854991] (ydlidar_sdk) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[16.861114] (ydlidar_sdk) StderrLine: {'line': b'  263 |               \x1b[32m\x1b[Kscan.stamp\x1b[m\x1b[K,\n'}
+[16.865058] (ydlidar_sdk) StderrLine: {'line': b'      |               \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                 \n'}
+[16.869571] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.873688] (ydlidar_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[16.908859] (-) TimerEvent: {}
+[17.010566] (-) TimerEvent: {}
+[17.112335] (-) TimerEvent: {}
+[17.172517] (ydlidar_sdk) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable ../tof_test\x1b[0m\n'}
+[17.212586] (-) TimerEvent: {}
+[17.265570] (ydlidar_sdk) StdoutLine: {'line': b'[ 91%] Built target lidar_c_api_test\n'}
+[17.312858] (-) TimerEvent: {}
+[17.402878] (ydlidar_sdk) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable ../ydlidar_test\x1b[0m\n'}
+[17.413062] (-) TimerEvent: {}
+[17.514596] (-) TimerEvent: {}
+[17.615580] (-) TimerEvent: {}
+[17.716605] (-) TimerEvent: {}
+[17.819671] (-) TimerEvent: {}
+[17.921686] (-) TimerEvent: {}
+[18.025086] (-) TimerEvent: {}
+[18.029776] (ydlidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_test\x1b[0m\n'}
+[18.125247] (-) TimerEvent: {}
+[18.226627] (-) TimerEvent: {}
+[18.329637] (-) TimerEvent: {}
+[18.430472] (-) TimerEvent: {}
+[18.531794] (-) TimerEvent: {}
+[18.633046] (-) TimerEvent: {}
+[18.639786] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[18.733266] (-) TimerEvent: {}
+[18.834231] (-) TimerEvent: {}
+[18.935279] (-) TimerEvent: {}
+[19.004418] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target etlidar_test\n'}
+[19.035495] (-) TimerEvent: {}
+[19.137029] (-) TimerEvent: {}
+[19.237974] (-) TimerEvent: {}
+[19.343018] (-) TimerEvent: {}
+[19.373434] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target tof_test\n'}
+[19.443215] (-) TimerEvent: {}
+[19.496639] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target ydlidar_test\n'}
+[19.543414] (-) TimerEvent: {}
+[19.644350] (-) TimerEvent: {}
+[19.745225] (-) TimerEvent: {}
+[19.846120] (-) TimerEvent: {}
+[19.947195] (-) TimerEvent: {}
+[20.048243] (-) TimerEvent: {}
+[20.150065] (-) TimerEvent: {}
+[20.251204] (-) TimerEvent: {}
+[20.352048] (-) TimerEvent: {}
+[20.457044] (-) TimerEvent: {}
+[20.557890] (-) TimerEvent: {}
+[20.658985] (-) TimerEvent: {}
+[20.761013] (-) TimerEvent: {}
+[20.862177] (-) TimerEvent: {}
+[20.963220] (-) TimerEvent: {}
+[21.064350] (-) TimerEvent: {}
+[21.165247] (-) TimerEvent: {}
+[21.266055] (-) TimerEvent: {}
+[21.367954] (-) TimerEvent: {}
+[21.449018] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[21.468201] (-) TimerEvent: {}
+[21.517215] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target lidar_test\n'}
+[21.568467] (-) TimerEvent: {}
+[21.575336] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[21.668733] (-) TimerEvent: {}
+[21.701239] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[21.702857] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_sdk'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[21.720698] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.723827] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[21.726636] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[21.728982] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[21.737834] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[21.740409] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[21.743695] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[21.746263] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[21.749251] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[21.752371] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[21.755039] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[21.758091] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[21.760499] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[21.762899] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[21.765305] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[21.767699] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[21.770018] (-) TimerEvent: {}
+[21.773992] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[21.777432] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[21.780490] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[21.783207] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[21.785675] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[21.788073] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[21.790375] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[21.793303] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[21.796023] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[21.804031] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[21.806223] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[21.808246] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/src/ydlidar_driver.h\n'}
+[21.810652] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[21.812946] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[21.815400] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[21.870223] (-) TimerEvent: {}
+[21.971677] (-) TimerEvent: {}
+[21.978717] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[21.981425] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[21.984455] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[22.003029] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[22.005028] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[22.010006] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[22.013043] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[22.015513] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[22.017725] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[22.021087] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[22.023938] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[22.026727] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[22.031048] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[22.033810] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[22.035892] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[22.038830] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[22.041270] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[22.043832] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[22.046385] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[22.048742] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[22.051837] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[22.054359] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[22.057019] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[22.063256] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[22.065490] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[22.067875] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[22.072052] (-) TimerEvent: {}
+[22.072917] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[22.076393] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[22.080493] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[22.087628] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[22.090035] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[22.092327] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[22.094481] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[22.096952] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[22.098906] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[22.101814] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[22.104416] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[22.106474] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[22.113001] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[22.117395] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[22.120870] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[22.123769] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[22.126492] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[22.129006] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[22.131482] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[22.133672] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[22.136071] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[22.138280] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[22.140972] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[22.143890] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[22.146848] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[22.150809] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[22.154705] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[22.157099] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[22.159482] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[22.161701] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[22.164601] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[22.166595] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[22.168678] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[22.177829] (-) TimerEvent: {}
+[22.179795] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[22.183742] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[22.186051] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[22.188658] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[22.192293] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[22.194943] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[22.197877] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[22.203378] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[22.206709] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[22.208830] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[22.211245] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[22.213653] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[22.216619] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[22.219438] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[22.221920] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[22.224053] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[22.226599] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[22.229082] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[22.231296] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[22.234150] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[22.237690] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[22.240271] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[22.243162] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[22.245695] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[22.247768] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[22.250292] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[22.257677] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/startup/initenv.sh\n'}
+[22.260502] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/bin/etlidar_test\n'}
+[22.278054] (-) TimerEvent: {}
+[22.331200] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/bin/tof_test\n'}
+[22.378219] (-) TimerEvent: {}
+[22.434225] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/bin/ydlidar_test\n'}
+[22.478409] (-) TimerEvent: {}
+[22.536822] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[22.578696] (-) TimerEvent: {}
+[22.639290] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[22.678874] (-) TimerEvent: {}
+[22.780294] (-) TimerEvent: {}
+[22.809048] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[22.880583] (-) TimerEvent: {}
+[22.982424] (-) TimerEvent: {}
+[23.084259] (-) TimerEvent: {}
+[23.184966] (-) TimerEvent: {}
+[23.286204] (-) TimerEvent: {}
+[23.387261] (-) TimerEvent: {}
+[23.488406] (-) TimerEvent: {}
+[23.589395] (-) TimerEvent: {}
+[23.690567] (-) TimerEvent: {}
+[23.769528] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[23.790774] (-) TimerEvent: {}
+[23.891589] (-) TimerEvent: {}
+[23.992658] (-) TimerEvent: {}
+[24.093603] (-) TimerEvent: {}
+[24.195120] (-) TimerEvent: {}
+[24.296091] (-) TimerEvent: {}
+[24.396991] (-) TimerEvent: {}
+[24.498287] (-) TimerEvent: {}
+[24.599300] (-) TimerEvent: {}
+[24.700565] (-) TimerEvent: {}
+[24.801563] (-) TimerEvent: {}
+[24.902622] (-) TimerEvent: {}
+[25.003463] (-) TimerEvent: {}
+[25.104646] (-) TimerEvent: {}
+[25.205537] (-) TimerEvent: {}
+[25.306417] (-) TimerEvent: {}
+[25.407312] (-) TimerEvent: {}
+[25.508316] (-) TimerEvent: {}
+[25.609236] (-) TimerEvent: {}
+[25.710293] (-) TimerEvent: {}
+[25.811193] (-) TimerEvent: {}
+[25.912227] (-) TimerEvent: {}
+[26.049665] (-) TimerEvent: {}
+[26.150701] (-) TimerEvent: {}
+[26.251623] (-) TimerEvent: {}
+[26.352672] (-) TimerEvent: {}
+[26.453683] (-) TimerEvent: {}
+[26.554660] (-) TimerEvent: {}
+[26.655560] (-) TimerEvent: {}
+[26.756925] (-) TimerEvent: {}
+[26.857817] (-) TimerEvent: {}
+[26.958669] (-) TimerEvent: {}
+[27.059600] (-) TimerEvent: {}
+[27.160454] (-) TimerEvent: {}
+[27.261443] (-) TimerEvent: {}
+[27.362309] (-) TimerEvent: {}
+[27.463220] (-) TimerEvent: {}
+[27.480674] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[27.503287] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[27.548510] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[27.549996] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver'], 'cwd': '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'dfeeedd970e6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK/build'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,utility,compute'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[27.563415] (-) TimerEvent: {}
+[27.564785] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.570057] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.573702] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[27.593816] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[27.613324] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[27.632447] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[27.652448] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[27.663585] (-) TimerEvent: {}
+[27.673874] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[27.694042] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[27.714358] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[27.734506] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[27.754680] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[27.763767] (-) TimerEvent: {}
+[27.774027] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[27.793008] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[27.812061] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[27.831513] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[27.851307] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[27.864061] (-) TimerEvent: {}
+[27.870728] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[27.890117] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[27.910879] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[27.933304] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[27.954515] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[27.964222] (-) TimerEvent: {}
+[27.974550] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[27.994150] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[28.013990] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[28.035941] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[28.064428] (-) TimerEvent: {}
+[28.165476] (-) TimerEvent: {}
+[28.247674] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[28.252399] (-) EventReactorShutdown: {}

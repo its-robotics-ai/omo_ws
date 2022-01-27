@@ -1,0 +1,17 @@
+[0.680s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint
+[0.984s] running develop
+[1.120s] running egg_info
+[1.130s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.147s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[1.149s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[1.160s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[1.233s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.270s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.363s] running build_ext
+[1.366s] Creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[1.392s] Installing default_server_endpoint script to /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.399s] 
+[1.401s] Installed /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint
+[1.403s] running install_data
+[1.436s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint

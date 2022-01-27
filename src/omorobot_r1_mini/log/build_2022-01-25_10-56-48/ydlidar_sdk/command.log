@@ -1,0 +1,1 @@
+Invoking command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk': /usr/bin/cmake --build /omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk -- -j8 -l8

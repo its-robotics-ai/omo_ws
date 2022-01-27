@@ -1,0 +1,17 @@
+[0.853s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop
+[1.307s] running develop
+[1.505s] running egg_info
+[1.512s] writing omo_r1mini_teleop.egg-info/PKG-INFO
+[1.519s] writing dependency_links to omo_r1mini_teleop.egg-info/dependency_links.txt
+[1.526s] writing entry points to omo_r1mini_teleop.egg-info/entry_points.txt
+[1.530s] writing requirements to omo_r1mini_teleop.egg-info/requires.txt
+[1.537s] writing top-level names to omo_r1mini_teleop.egg-info/top_level.txt
+[2.124s] reading manifest file 'omo_r1mini_teleop.egg-info/SOURCES.txt'
+[2.234s] writing manifest file 'omo_r1mini_teleop.egg-info/SOURCES.txt'
+[2.626s] running build_ext
+[2.638s] Creating /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo-r1mini-teleop.egg-link (link to .)
+[2.707s] Installing teleop_keyboard script to /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/lib/omo_r1mini_teleop
+[2.736s] 
+[2.741s] Installed /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop
+[2.758s] running install_data
+[3.072s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_teleop/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_teleop

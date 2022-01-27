@@ -1,0 +1,18 @@
+[0.850s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup
+[1.134s] running develop
+[1.316s] running egg_info
+[1.322s] writing omo_r1mini_bringup.egg-info/PKG-INFO
+[1.325s] writing dependency_links to omo_r1mini_bringup.egg-info/dependency_links.txt
+[1.331s] writing entry points to omo_r1mini_bringup.egg-info/entry_points.txt
+[1.339s] writing requirements to omo_r1mini_bringup.egg-info/requires.txt
+[1.342s] writing top-level names to omo_r1mini_bringup.egg-info/top_level.txt
+[1.420s] reading manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.452s] writing manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.564s] running build_ext
+[1.568s] Creating /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo-r1mini-bringup.egg-link (link to .)
+[1.580s] Installing omo_r1mini_mcu_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.588s] Installing omo_r1mini_motor_setting_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.596s] 
+[1.602s] Installed /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup
+[1.605s] running install_data
+[1.611s] copying launch/omo_r1mini_bringup.launch.py -> /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch

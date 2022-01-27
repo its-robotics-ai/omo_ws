@@ -1,0 +1,66 @@
+[1.421s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build
+[1.897s] running develop
+[2.145s] Removing /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py-action-pkg.egg-link (link to .)
+[2.187s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build
+[2.196s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_action_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/install.log --single-version-externally-managed
+[2.644s] running egg_info
+[2.650s] writing ../../../build/py_action_pkg/py_action_pkg.egg-info/PKG-INFO
+[2.660s] writing dependency_links to ../../../build/py_action_pkg/py_action_pkg.egg-info/dependency_links.txt
+[2.671s] writing entry points to ../../../build/py_action_pkg/py_action_pkg.egg-info/entry_points.txt
+[2.682s] writing requirements to ../../../build/py_action_pkg/py_action_pkg.egg-info/requires.txt
+[2.686s] writing top-level names to ../../../build/py_action_pkg/py_action_pkg.egg-info/top_level.txt
+[2.752s] reading manifest file '../../../build/py_action_pkg/py_action_pkg.egg-info/SOURCES.txt'
+[2.784s] writing manifest file '../../../build/py_action_pkg/py_action_pkg.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.796s] running build_py
+[2.804s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build
+[2.820s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib
+[2.831s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.842s] copying py_action_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.852s] copying py_action_pkg/fibonacci_action_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.859s] copying py_action_pkg/fibonacci_action_client_cancel.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.871s] copying py_action_pkg/fibonacci_action_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.887s] copying py_action_pkg/fibonacci_action_server_cancel.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.894s] copying py_action_pkg/image_sub.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.919s] copying py_action_pkg/maze_action_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.952s] copying py_action_pkg/maze_action_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[2.987s] copying py_action_pkg/odom_sub.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[3.004s] copying py_action_pkg/robot_controller.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg
+[3.017s] running install
+[3.026s] running install_lib
+[3.030s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.039s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.070s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/fibonacci_action_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.080s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/fibonacci_action_client_cancel.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.099s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/fibonacci_action_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.114s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/fibonacci_action_server_cancel.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.132s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/image_sub.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.149s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/maze_action_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.163s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/maze_action_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.168s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/odom_sub.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.191s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build/lib/py_action_pkg/robot_controller.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg
+[3.210s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/__init__.py to __init__.cpython-38.pyc
+[3.228s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/fibonacci_action_client.py to fibonacci_action_client.cpython-38.pyc
+[3.238s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/fibonacci_action_client_cancel.py to fibonacci_action_client_cancel.cpython-38.pyc
+[3.254s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/fibonacci_action_server.py to fibonacci_action_server.cpython-38.pyc
+[3.271s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/fibonacci_action_server_cancel.py to fibonacci_action_server_cancel.cpython-38.pyc
+[3.295s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/image_sub.py to image_sub.cpython-38.pyc
+[3.304s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/maze_action_client.py to maze_action_client.cpython-38.pyc
+[3.324s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/maze_action_server.py to maze_action_server.cpython-38.pyc
+[3.341s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/odom_sub.py to odom_sub.cpython-38.pyc
+[3.372s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg/robot_controller.py to robot_controller.cpython-38.pyc
+[3.385s] running install_data
+[3.392s] running install_egg_info
+[3.395s] Copying ../../../build/py_action_pkg/py_action_pkg.egg-info to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages/py_action_pkg-0.0.0-py3.8.egg-info
+[3.514s] running install_scripts
+[3.558s] Installing fibonacci_action_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.574s] Installing fibonacci_action_client_cancel script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.580s] Installing fibonacci_action_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.594s] Installing fibonacci_action_server_cancel script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.602s] Installing img_subscriber_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.612s] Installing maze_action_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.617s] Installing maze_action_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.627s] Installing odom_sub_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.638s] Installing robot_controller script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/py_action_pkg
+[3.643s] writing list of installed files to '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/install.log'
+[3.685s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_action_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/install.log --single-version-externally-managed

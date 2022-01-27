@@ -1,0 +1,92 @@
+[0.395s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial
+[0.979s] -- The C compiler identification is GNU 9.3.0
+[1.458s] -- The CXX compiler identification is GNU 9.3.0
+[1.605s] -- Check for working C compiler: /usr/bin/cc
+[2.828s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.833s] -- Detecting C compiler ABI info
+[4.009s] -- Detecting C compiler ABI info - done
+[4.068s] -- Detecting C compile features
+[4.073s] -- Detecting C compile features - done
+[4.136s] -- Check for working CXX compiler: /usr/bin/c++
+[5.078s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.088s] -- Detecting CXX compiler ABI info
+[6.027s] -- Detecting CXX compiler ABI info - done
+[6.076s] -- Detecting CXX compile features
+[6.087s] -- Detecting CXX compile features - done
+[6.156s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.229s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.671s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.969s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[7.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.114s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.444s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.679s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.785s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[7.822s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.893s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.959s] -- Looking for pthread.h
+[8.976s] -- Looking for pthread.h - found
+[9.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.435s] -- Looking for pthread_create in pthreads
+[11.129s] -- Looking for pthread_create in pthreads - not found
+[11.134s] -- Looking for pthread_create in pthread
+[12.025s] -- Looking for pthread_create in pthread - found
+[12.041s] -- Found Threads: TRUE  
+[12.300s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[12.797s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.518s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.525s] -- Configured cppcheck include dirs: 
+[13.532s] -- Configured cppcheck exclude dirs and/or files: 
+[13.543s] -- Added test 'lint_cmake' to check CMake code style
+[13.550s] -- Added test 'uncrustify' to check C / C++ code style
+[13.562s] -- Configured uncrustify additional arguments: 
+[13.571s] -- Added test 'xmllint' to check XML markup files
+[13.743s] -- Configuring done
+[14.882s] -- Generating done
+[15.104s] -- Build files have been written to: /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial
+[15.114s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial
+[15.139s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[15.409s] [35m[1mScanning dependencies of target srv_client_node[0m
+[15.420s] [35m[1mScanning dependencies of target srv_server_node[0m
+[15.440s] [35m[1mScanning dependencies of target cpp_simple_service_dummy_server_node[0m
+[15.470s] [35m[1mScanning dependencies of target cpp_simple_service_client_node[0m
+[25.942s] [ 12%] [32mBuilding CXX object CMakeFiles/srv_client_node.dir/src/srv_client.cpp.o[0m
+[26.171s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_dummy_server_node.dir/src/cpp_simple_service_dummy_server.cpp.o[0m
+[26.602s] [ 37%] [32mBuilding CXX object CMakeFiles/srv_server_node.dir/src/srv_server.cpp.o[0m
+[26.745s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_client_node.dir/src/cpp_simple_service_client.cpp.o[0m
+[41.926s] [ 62%] [32m[1mLinking CXX executable srv_server_node[0m
+[42.282s] [ 75%] [32m[1mLinking CXX executable cpp_simple_service_client_node[0m
+[42.322s] [ 87%] [32m[1mLinking CXX executable cpp_simple_service_dummy_server_node[0m
+[43.247s] [100%] [32m[1mLinking CXX executable srv_client_node[0m
+[47.362s] [100%] Built target srv_server_node
+[47.545s] [100%] Built target cpp_simple_service_dummy_server_node
+[48.759s] [100%] Built target cpp_simple_service_client_node
+[49.364s] [100%] Built target srv_client_node
+[49.443s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[49.532s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial
+[49.560s] -- Install configuration: ""
+[49.573s] -- Execute custom install script
+[49.602s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_client_node
+[49.644s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_dummy_server_node
+[49.697s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_server_node
+[49.746s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_client_node
+[49.834s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/package_run_dependencies/cpp_service_tutorial
+[49.893s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/parent_prefix_path/cpp_service_tutorial
+[49.955s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.sh
+[49.999s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.dsv
+[50.041s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.sh
+[50.103s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.dsv
+[50.140s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.bash
+[50.193s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.sh
+[50.233s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.zsh
+[50.283s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.dsv
+[50.319s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv
+[50.398s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/packages/cpp_service_tutorial
+[50.449s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig.cmake
+[50.492s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig-version.cmake
+[50.539s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.xml
+[50.599s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial

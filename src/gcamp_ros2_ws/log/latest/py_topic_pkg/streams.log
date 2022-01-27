@@ -1,0 +1,28 @@
+[1.373s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build
+[2.337s] running develop
+[2.532s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build
+[2.545s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_topic_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/install.log --single-version-externally-managed
+[2.999s] running egg_info
+[3.003s] writing ../../../build/py_topic_pkg/py_topic_pkg.egg-info/PKG-INFO
+[3.009s] writing dependency_links to ../../../build/py_topic_pkg/py_topic_pkg.egg-info/dependency_links.txt
+[3.021s] writing entry points to ../../../build/py_topic_pkg/py_topic_pkg.egg-info/entry_points.txt
+[3.046s] writing requirements to ../../../build/py_topic_pkg/py_topic_pkg.egg-info/requires.txt
+[3.053s] writing top-level names to ../../../build/py_topic_pkg/py_topic_pkg.egg-info/top_level.txt
+[3.123s] reading manifest file '../../../build/py_topic_pkg/py_topic_pkg.egg-info/SOURCES.txt'
+[3.135s] writing manifest file '../../../build/py_topic_pkg/py_topic_pkg.egg-info/SOURCES.txt'
+[3.156s] running build
+[3.162s] running build_py
+[3.167s] running install
+[3.176s] running install_lib
+[3.183s] running install_data
+[3.197s] running install_egg_info
+[3.212s] removing '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.220s] Copying ../../../build/py_topic_pkg/py_topic_pkg.egg-info to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg-0.0.0-py3.8.egg-info
+[3.347s] running install_scripts
+[3.383s] Installing cmd_vel_pub_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.395s] Installing endless_cmd_vel_pub_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.410s] Installing laser_raw_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.418s] Installing laser_sub_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.430s] Installing parking_node script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[3.439s] writing list of installed files to '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/install.log'
+[3.484s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_topic_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/install.log --single-version-externally-managed

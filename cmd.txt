@@ -1,0 +1,2 @@
+docker build -t omo-vnc:0.1 .
+docker run -d -p 80:80 --volume=/Users/heejinju/Data/Dev/Docker/omo_ws/src:/workspaces/foxy_ws/src omo-vnc:0.1

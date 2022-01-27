@@ -1,0 +1,113 @@
+[0.843s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+[1.427s] -- The C compiler identification is GNU 9.3.0
+[1.976s] -- The CXX compiler identification is GNU 9.3.0
+[2.063s] -- Check for working C compiler: /usr/bin/cc
+[2.994s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.003s] -- Detecting C compiler ABI info
+[3.908s] -- Detecting C compiler ABI info - done
+[3.963s] -- Detecting C compile features
+[3.971s] -- Detecting C compile features - done
+[4.038s] -- Check for working CXX compiler: /usr/bin/c++
+[4.985s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.995s] -- Detecting CXX compiler ABI info
+[5.913s] -- Detecting CXX compiler ABI info - done
+[5.960s] -- Detecting CXX compile features
+[5.966s] -- Detecting CXX compile features - done
+[6.017s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.081s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.089s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.614s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.830s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.927s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.149s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.232s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.652s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.669s] -- Looking for pthread.h
+[8.646s] -- Looking for pthread.h - found
+[8.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.600s] -- Looking for pthread_create in pthreads
+[10.255s] -- Looking for pthread_create in pthreads - not found
+[10.260s] -- Looking for pthread_create in pthread
+[11.430s] -- Looking for pthread_create in pthread - found
+[11.436s] -- Found Threads: TRUE  
+[11.722s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.940s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[12.081s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[12.154s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.764s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.937s] -- Configured cppcheck include dirs: /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src
+[12.943s] -- Configured cppcheck exclude dirs and/or files: 
+[13.061s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.067s] -- Configured cpplint exclude dirs and/or files: 
+[13.089s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.150s] -- Added test 'lint_cmake' to check CMake code style
+[13.174s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[13.317s] -- Added test 'uncrustify' to check C / C++ code style
+[13.322s] -- Configured uncrustify additional arguments: 
+[13.349s] -- Added test 'xmllint' to check XML markup files
+[13.532s] -- Configuring done
+[14.247s] -- Generating done
+[14.420s] -- Build files have been written to: /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver
+[14.429s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+[14.451s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver -- -j8 -l8
+[14.625s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[14.631s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[22.618s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[22.944s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[27.568s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[27.575s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.585s]   163 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[27.591s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[27.597s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.601s]   164 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[27.605s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[27.612s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.616s]   165 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[27.621s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[27.625s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[27.630s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.636s]   173 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[27.642s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[27.648s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.651s]   174 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[27.659s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[27.663s] [01m[K/workspaces/foxy_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[27.667s]   175 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[27.673s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[35.891s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[40.058s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[44.505s] [100%] Built target ydlidar_ros2_driver_node
+[50.279s] [100%] Built target ydlidar_ros2_driver_client
+[50.322s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver -- -j8 -l8
+[50.408s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver
+[50.435s] -- Install configuration: ""
+[50.443s] -- Execute custom install script
+[50.462s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[50.490s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[50.521s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[50.557s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[50.602s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[50.650s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[50.680s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[50.716s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[50.758s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[50.805s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[50.851s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[50.882s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[50.913s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[50.947s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[50.992s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[51.030s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[51.064s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[51.096s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[51.130s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[51.164s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[51.232s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[51.285s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[51.321s] -- Symlinking: /workspaces/foxy_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[51.358s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver

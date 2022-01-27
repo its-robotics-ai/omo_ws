@@ -1,0 +1,18 @@
+[1.240s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup
+[1.564s] running develop
+[1.729s] running egg_info
+[1.733s] writing omo_r1mini_bringup.egg-info/PKG-INFO
+[1.740s] writing dependency_links to omo_r1mini_bringup.egg-info/dependency_links.txt
+[1.743s] writing entry points to omo_r1mini_bringup.egg-info/entry_points.txt
+[1.747s] writing requirements to omo_r1mini_bringup.egg-info/requires.txt
+[1.752s] writing top-level names to omo_r1mini_bringup.egg-info/top_level.txt
+[1.829s] reading manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.857s] writing manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.947s] running build_ext
+[1.951s] Creating /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo-r1mini-bringup.egg-link (link to .)
+[1.967s] Installing omo_r1mini_mcu_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.971s] Installing omo_r1mini_motor_setting_node script to /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.982s] 
+[1.984s] Installed /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup
+[1.987s] running install_data
+[2.033s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_description PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup --editable --build-directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/omo_r1mini_bringup/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/omorobot_r1_mini/install/omo_r1mini_bringup

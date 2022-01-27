@@ -1,0 +1,21 @@
+[0.956s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/src/ROS-TCP-Endpoint': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /workspaces/foxy_ws/src/nav2_slam_example/src/build/ros_tcp_endpoint/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint --record /workspaces/foxy_ws/src/nav2_slam_example/src/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[1.365s] running egg_info
+[1.368s] writing ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.375s] writing dependency_links to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.387s] writing entry points to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.404s] writing requirements to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.418s] writing top-level names to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.503s] reading manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.506s] writing manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.516s] running build
+[1.523s] running build_py
+[1.526s] running install
+[1.532s] running install_lib
+[1.539s] running install_data
+[1.544s] running install_egg_info
+[1.548s] removing '/workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[1.554s] Copying ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[1.660s] running install_scripts
+[1.706s] Installing default_server_endpoint script to /workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.719s] writing list of installed files to '/workspaces/foxy_ws/src/nav2_slam_example/src/build/ros_tcp_endpoint/install.log'
+[1.806s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /workspaces/foxy_ws/src/nav2_slam_example/src/build/ros_tcp_endpoint/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/src/install/ros_tcp_endpoint --record /workspaces/foxy_ws/src/nav2_slam_example/src/build/ros_tcp_endpoint/install.log --single-version-externally-managed

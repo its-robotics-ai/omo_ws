@@ -1,0 +1,792 @@
+[0.330s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.332s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdcdc65efd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdcdc65efd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdcdc664520>)
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/foxy_ws/src/gcamp_ros2_ws'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_action_pkg' with type 'ros.ament_cmake' and name 'cpp_action_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_first_pkg' with type 'ros.ament_cmake' and name 'cpp_first_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_pkg' with type 'ros.ament_cmake' and name 'cpp_service_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_tutorial' with type 'ros.ament_cmake' and name 'cpp_service_tutorial'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_topic_pkg' with type 'ros.ament_cmake' and name 'cpp_topic_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/gcamp_gazebo' with type 'ros.ament_cmake' and name 'gcamp_gazebo'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_action_pkg' with type 'ros.ament_python' and name 'py_action_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_first_pkg' with type 'ros.ament_python' and name 'py_first_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_service_pkg' with type 'ros.ament_python' and name 'py_service_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_topic_pkg' with type 'ros.ament_python' and name 'py_topic_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.695s] DEBUG:colcon.colcon_core.verb:Building package 'gcamp_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.706s] DEBUG:colcon.colcon_core.verb:Building package 'py_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'py_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.726s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.748s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.749s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.752s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.752s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.752s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.753s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.755s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.756s] DEBUG:colcon.colcon_core.verb:Building package 'py_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg', 'merge_install': False, 'path': '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.758s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.760s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.762s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces' with build type 'ament_cmake'
+[0.762s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces'
+[0.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.807s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg' with build type 'ament_cmake'
+[0.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.842s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial' with build type 'ament_cmake'
+[0.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial'
+[0.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg' with build type 'ament_cmake'
+[0.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg'
+[0.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.881s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo' with build type 'ament_cmake'
+[0.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.900s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.912s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg' with build type 'ament_python'
+[0.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'ament_prefix_path')
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.sh'
+[0.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.973s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.984s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg' with build type 'ament_python'
+[0.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'ament_prefix_path')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.028s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo
+[1.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg'
+[1.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.715s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.172s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg'
+[2.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.179s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg
+[2.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg
+[4.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath_develop')
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.dsv'
+[4.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.sh'
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg' for CMake module files
+[4.379s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg' for CMake config files
+[4.404s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/bin'
+[4.417s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/pkgconfig/py_first_pkg.pc'
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages'
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath')
+[4.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.dsv'
+[4.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.sh'
+[4.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_first_pkg)
+[4.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.ps1'
+[4.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.dsv'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.sh'
+[4.555s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.bash'
+[4.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.zsh'
+[4.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_first_pkg/share/colcon-core/packages/py_first_pkg)
+[4.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath_develop')
+[4.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.ps1'
+[4.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg
+[4.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.dsv'
+[4.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.sh'
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg' for CMake module files
+[4.767s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg' for CMake config files
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib'
+[4.780s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/bin'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/pkgconfig/py_topic_pkg.pc'
+[4.786s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages'
+[4.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath')
+[4.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.ps1'
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.dsv'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.sh'
+[4.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_topic_pkg)
+[4.842s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.ps1'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.dsv'
+[4.875s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.sh'
+[4.892s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.bash'
+[4.909s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.zsh'
+[4.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_topic_pkg/share/colcon-core/packages/py_topic_pkg)
+[14.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo
+[14.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[15.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[15.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo
+[15.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg
+[15.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg -- -j8 -l8
+[15.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial
+[15.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[16.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg
+[16.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[18.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[18.218s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[18.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/gcamp_gazebo
+[18.316s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[18.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[18.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[18.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[18.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[18.456s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[18.460s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[18.463s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[18.466s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[18.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[18.506s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[18.520s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[18.539s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[18.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[18.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[18.673s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[18.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[18.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[18.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[18.878s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[18.881s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[18.891s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[18.897s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[18.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[18.930s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[18.944s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[18.953s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[18.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[21.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces
+[21.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces -- -j8 -l8
+[45.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg -- -j8 -l8
+[45.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg
+[46.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[46.948s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[46.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_first_pkg
+[47.032s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[47.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[47.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[47.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[47.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[47.153s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[47.155s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[47.159s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[47.165s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[47.171s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[47.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[47.215s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[47.229s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[47.244s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[47.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[47.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[47.396s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[47.471s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[47.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[47.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[47.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[47.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[47.558s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[47.561s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[47.564s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[47.570s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[47.578s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[47.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[47.602s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[47.612s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[47.624s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[47.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[50.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[50.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial
+[51.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[51.418s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[51.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_tutorial
+[51.487s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[51.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[51.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[51.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[51.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[51.596s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[51.599s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[51.604s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[51.607s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[51.613s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[51.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[51.647s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[51.666s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[51.686s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[51.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[51.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[51.836s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[51.901s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[51.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[51.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[51.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[51.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[51.974s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[51.977s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[51.983s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[51.987s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[51.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[52.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[52.015s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[52.025s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[52.034s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[52.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[68.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[68.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg
+[69.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[69.453s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[69.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg
+[69.487s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[69.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[69.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[69.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[69.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[69.536s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[69.537s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[69.538s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[69.540s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[69.542s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[69.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[69.562s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[69.567s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[69.576s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[69.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[69.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[69.681s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[69.700s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[69.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[69.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[69.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[69.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[69.735s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[69.737s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[69.739s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[69.740s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[69.742s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[69.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[69.758s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[69.763s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[69.767s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[69.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[79.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces -- -j8 -l8
+[79.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces
+[83.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[83.300s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[83.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/custom_interfaces
+[83.359s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[83.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[83.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[83.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[83.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[83.448s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib'
+[83.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[83.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[83.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[83.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[83.473s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/bin'
+[83.475s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[83.478s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[83.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[83.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[83.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[83.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[83.499s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[83.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[83.518s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[83.526s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[83.531s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[83.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[83.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[83.770s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[83.794s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[83.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[83.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[83.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[83.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[83.876s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib'
+[83.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[83.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[83.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[83.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[83.894s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/bin'
+[83.895s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[83.897s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[83.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[83.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[83.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[83.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[83.918s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[83.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[83.934s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[83.940s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[83.945s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[83.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[83.958s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg' with build type 'ament_cmake'
+[83.960s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg'
+[83.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[83.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[83.974s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[83.989s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg' with build type 'ament_cmake'
+[83.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg'
+[84.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[84.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[84.012s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[84.032s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg' with build type 'ament_python'
+[84.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'ament_prefix_path')
+[84.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.ps1'
+[84.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.dsv'
+[84.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.sh'
+[84.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[84.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[84.104s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[84.125s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg' with build type 'ament_python'
+[84.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'ament_prefix_path')
+[84.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.ps1'
+[84.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.dsv'
+[84.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.sh'
+[84.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[84.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[84.183s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[84.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg
+[84.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg
+[84.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg'
+[84.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[84.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[84.713s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[85.148s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg'
+[85.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[85.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[85.166s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[85.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg
+[85.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg
+[86.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath_develop')
+[86.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.ps1'
+[86.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg
+[86.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.dsv'
+[86.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.sh'
+[86.904s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg' for CMake module files
+[86.931s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg' for CMake config files
+[86.942s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib'
+[86.944s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/bin'
+[86.949s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/pkgconfig/py_service_pkg.pc'
+[86.952s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages'
+[86.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath')
+[86.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.ps1'
+[86.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.dsv'
+[86.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.sh'
+[86.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_service_pkg)
+[86.990s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.ps1'
+[86.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.dsv'
+[87.010s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.sh'
+[87.021s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.bash'
+[87.031s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.zsh'
+[87.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/share/colcon-core/packages/py_service_pkg)
+[87.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath_develop')
+[87.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.ps1'
+[87.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg
+[87.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.dsv'
+[87.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.sh'
+[87.125s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg' for CMake module files
+[87.147s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg' for CMake config files
+[87.153s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib'
+[87.156s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/bin'
+[87.164s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/pkgconfig/py_action_pkg.pc'
+[87.166s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages'
+[87.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath')
+[87.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.ps1'
+[87.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.dsv'
+[87.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.sh'
+[87.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_pkg)
+[87.212s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.ps1'
+[87.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.dsv'
+[87.232s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.sh'
+[87.240s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.bash'
+[87.250s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.zsh'
+[87.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_action_pkg/share/colcon-core/packages/py_action_pkg)
+[97.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg
+[97.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[97.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg
+[97.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[140.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[141.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg
+[142.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[142.749s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[142.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg
+[142.813s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[142.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[142.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[142.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[142.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[142.876s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[142.877s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[142.879s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[142.881s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[142.885s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[142.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[142.895s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[142.905s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[142.913s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[142.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[143.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[143.019s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[143.050s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[143.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[143.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[143.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[143.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[143.099s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[143.100s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[143.103s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[143.108s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[143.111s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[143.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[143.123s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[143.127s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[143.136s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[143.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[154.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[154.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg
+[156.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[156.476s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[156.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_service_pkg
+[156.505s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[156.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[156.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[156.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[156.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[156.548s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[156.549s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[156.551s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[156.552s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[156.555s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[156.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[156.573s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[156.580s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[156.584s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[156.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[156.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[156.661s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[156.684s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[156.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[156.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[156.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[156.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[156.711s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[156.712s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[156.713s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[156.715s] Level 1:colcon.colcon_core.environment:checking '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[156.716s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[156.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[156.730s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[156.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[156.749s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[156.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[156.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[156.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[156.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[156.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[156.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[156.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[156.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[156.834s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[156.865s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[156.867s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[156.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/local_setup.ps1'
+[156.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/_local_setup_util_ps1.py'
+[156.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/setup.ps1'
+[156.907s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/local_setup.sh'
+[156.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/_local_setup_util_sh.py'
+[156.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/setup.sh'
+[156.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/local_setup.bash'
+[156.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/setup.bash'
+[156.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/local_setup.zsh'
+[156.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/foxy_ws/src/gcamp_ros2_ws/install/setup.zsh'

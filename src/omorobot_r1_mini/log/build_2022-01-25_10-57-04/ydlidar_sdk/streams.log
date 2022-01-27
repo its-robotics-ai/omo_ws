@@ -1,0 +1,5 @@
+[0.579s] Invoking command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk': /usr/bin/cmake --build /omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk -- -j8 -l8
+[0.586s] CMake Error: The current CMakeCache.txt directory /omo_ws/src/omorobot_r1_mini/build/ydlidar_sdk/CMakeCache.txt is different than the directory /workspaces/foxy_ws/src/omorobot_r1_mini/build/ydlidar_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.591s] CMake Error: The source directory "/workspaces/foxy_ws/src/omorobot_r1_mini/src/YDLidar-SDK" does not exist.
+[0.594s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.599s] make: *** [Makefile:706: cmake_check_build_system] Error 1

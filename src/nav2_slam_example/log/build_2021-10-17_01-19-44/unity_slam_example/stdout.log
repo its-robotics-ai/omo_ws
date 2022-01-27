@@ -1,0 +1,16 @@
+running develop
+Removing /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity-slam-example.egg-link (link to .)
+running egg_info
+writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+running install_egg_info
+Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/install.log'

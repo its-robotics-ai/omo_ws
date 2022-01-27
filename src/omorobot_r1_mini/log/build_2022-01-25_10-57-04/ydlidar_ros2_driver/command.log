@@ -1,0 +1,2 @@
+Invoking command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver
+Invoked command in '/omo_ws/src/omorobot_r1_mini/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /omo_ws/src/omorobot_r1_mini/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/omo_ws/src/omorobot_r1_mini/install/ydlidar_ros2_driver

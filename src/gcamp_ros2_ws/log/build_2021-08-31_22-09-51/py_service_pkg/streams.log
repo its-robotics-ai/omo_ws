@@ -1,0 +1,62 @@
+[1.429s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build
+[1.908s] running develop
+[2.153s] Removing /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py-service-pkg.egg-link (link to .)
+[2.181s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --uninstall --editable --build-directory /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build
+[2.191s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_service_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/install.log --single-version-externally-managed
+[2.650s] running egg_info
+[2.658s] writing ../../../build/py_service_pkg/py_service_pkg.egg-info/PKG-INFO
+[2.664s] writing dependency_links to ../../../build/py_service_pkg/py_service_pkg.egg-info/dependency_links.txt
+[2.676s] writing entry points to ../../../build/py_service_pkg/py_service_pkg.egg-info/entry_points.txt
+[2.698s] writing requirements to ../../../build/py_service_pkg/py_service_pkg.egg-info/requires.txt
+[2.711s] writing top-level names to ../../../build/py_service_pkg/py_service_pkg.egg-info/top_level.txt
+[2.770s] reading manifest file '../../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[2.801s] writing manifest file '../../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[2.811s] running build
+[2.815s] running build_py
+[2.828s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build
+[2.834s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib
+[2.857s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.863s] copying py_service_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.883s] copying py_service_pkg/basic_srv_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.898s] copying py_service_pkg/basic_srv_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.934s] copying py_service_pkg/custom_srv_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.948s] copying py_service_pkg/custom_srv_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.965s] copying py_service_pkg/robot_turning_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.979s] copying py_service_pkg/robot_turning_srv.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[2.997s] copying py_service_pkg/spawn_model.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[3.006s] copying py_service_pkg/spawn_skidbot.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg
+[3.011s] running install
+[3.017s] running install_lib
+[3.029s] creating /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.033s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/__init__.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.042s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/basic_srv_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.064s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/basic_srv_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.088s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/custom_srv_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.104s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/custom_srv_server.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.122s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/robot_turning_client.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.138s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/robot_turning_srv.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.156s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/spawn_model.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.176s] copying /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build/lib/py_service_pkg/spawn_skidbot.py -> /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[3.197s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/__init__.py to __init__.cpython-38.pyc
+[3.224s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/basic_srv_client.py to basic_srv_client.cpython-38.pyc
+[3.246s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/basic_srv_server.py to basic_srv_server.cpython-38.pyc
+[3.265s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/custom_srv_client.py to custom_srv_client.cpython-38.pyc
+[3.293s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/custom_srv_server.py to custom_srv_server.cpython-38.pyc
+[3.308s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/robot_turning_client.py to robot_turning_client.cpython-38.pyc
+[3.325s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/robot_turning_srv.py to robot_turning_srv.cpython-38.pyc
+[3.340s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/spawn_model.py to spawn_model.cpython-38.pyc
+[3.365s] byte-compiling /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/spawn_skidbot.py to spawn_skidbot.cpython-38.pyc
+[3.380s] running install_data
+[3.384s] running install_egg_info
+[3.393s] Copying ../../../build/py_service_pkg/py_service_pkg.egg-info to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg-0.0.0-py3.8.egg-info
+[3.511s] running install_scripts
+[3.551s] Installing basic_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.566s] Installing basic_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.579s] Installing custom_srv_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.588s] Installing custom_srv_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.593s] Installing gazebo_model_spawner script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.600s] Installing robot_turning_client script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.611s] Installing robot_turning_server script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.619s] Installing spawn_skidbot script to /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[3.631s] writing list of installed files to '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/install.log'
+[3.724s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_service_pkg build --build-base /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/build install --prefix /workspaces/foxy_ws/src/gcamp_ros2_ws/install/py_service_pkg --record /workspaces/foxy_ws/src/gcamp_ros2_ws/build/py_service_pkg/install.log --single-version-externally-managed

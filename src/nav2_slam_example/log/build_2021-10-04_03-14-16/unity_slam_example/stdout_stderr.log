@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating unity_slam_example.egg-info
+writing unity_slam_example.egg-info/PKG-INFO
+writing dependency_links to unity_slam_example.egg-info/dependency_links.txt
+writing requirements to unity_slam_example.egg-info/requires.txt
+writing top-level names to unity_slam_example.egg-info/top_level.txt
+writing manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+reading manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+writing manifest file 'unity_slam_example.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/site.py
+Creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity-slam-example.egg-link (link to .)
+
+Installed /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example
+running install_data
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index
+creating /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index/packages
+copying resource/unity_slam_example -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example
+copying rviz/nav2_unity.rviz -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example
+copying launch/unity_slam_example.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/share/unity_slam_example

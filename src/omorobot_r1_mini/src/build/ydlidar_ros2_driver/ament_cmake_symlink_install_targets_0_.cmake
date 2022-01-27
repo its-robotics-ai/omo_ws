@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver/ydlidar_ros2_driver_node" "/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/ydlidar_ros2_driver/ydlidar_ros2_driver_client" "TARGETS" "ydlidar_ros2_driver_node" "ydlidar_ros2_driver_client" "DESTINATION" "lib/ydlidar_ros2_driver")

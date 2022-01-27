@@ -1,0 +1,29 @@
+[0.214s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[0.990s] [ 25%] Built target fibonacci_action_server_oop_node
+[1.057s] [ 50%] Built target fibonacci_action_client_oop_node
+[1.127s] [ 75%] Built target fibonacci_action_server_node
+[1.190s] [100%] Built target fibonacci_action_client_node
+[1.309s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[1.378s] Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg
+[1.452s] -- Install configuration: ""
+[1.466s] -- Execute custom install script
+[1.471s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_node
+[1.489s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_oop_node
+[1.494s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_node
+[1.510s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_oop_node
+[1.517s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_action_pkg
+[1.533s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_action_pkg
+[1.540s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.sh
+[1.552s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.dsv
+[1.563s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.sh
+[1.572s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.dsv
+[1.582s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.bash
+[1.595s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.sh
+[1.612s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.zsh
+[1.622s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.dsv
+[1.632s] -- Symlinking: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv
+[1.731s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/packages/cpp_action_pkg
+[1.738s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig.cmake
+[1.744s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig-version.cmake
+[1.759s] -- Up-to-date symlink: /workspaces/foxy_ws/src/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.xml
+[1.767s] Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/foxy_ws/src/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_action_pkg

@@ -1,0 +1,21 @@
+[1.607s] Invoking command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_teleop build --build-base /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build install --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --record /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log --single-version-externally-managed
+[2.091s] running egg_info
+[2.106s] writing ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/PKG-INFO
+[2.114s] writing dependency_links to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/dependency_links.txt
+[2.119s] writing entry points to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/entry_points.txt
+[2.130s] writing requirements to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/requires.txt
+[2.140s] writing top-level names to ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/top_level.txt
+[2.246s] reading manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+[2.265s] writing manifest file '../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info/SOURCES.txt'
+[2.285s] running build
+[2.289s] running build_py
+[2.300s] running install
+[2.305s] running install_lib
+[2.337s] running install_data
+[2.348s] running install_egg_info
+[2.353s] removing '/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info' (and everything under it)
+[2.370s] Copying ../../build/omo_r1mini_teleop/omo_r1mini_teleop.egg-info to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages/omo_r1mini_teleop-2.1.1-py3.8.egg-info
+[2.505s] running install_scripts
+[2.537s] Installing teleop_keyboard script to /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/omo_r1mini_teleop
+[2.549s] writing list of installed files to '/workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log'
+[2.738s] Invoked command in '/workspaces/foxy_ws/src/omorobot_r1_mini/src/omo_r1mini-foxy/omo_r1mini_teleop' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/omo_r1mini_teleop build --build-base /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/build install --prefix /workspaces/foxy_ws/src/omorobot_r1_mini/src/install/omo_r1mini_teleop --record /workspaces/foxy_ws/src/omorobot_r1_mini/src/build/omo_r1mini_teleop/install.log --single-version-externally-managed

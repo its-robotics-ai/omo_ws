@@ -1,0 +1,20 @@
+[0.827s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --uninstall --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build
+[1.120s] running develop
+[1.362s] Removing /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity-slam-example.egg-link (link to .)
+[1.392s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --uninstall --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build
+[1.398s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/src/unity_slam_example': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --record /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/install.log --single-version-externally-managed
+[1.687s] running egg_info
+[1.690s] writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+[1.693s] writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+[1.700s] writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+[1.703s] writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+[1.718s] reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[1.729s] writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[1.742s] running build
+[1.747s] running install
+[1.757s] running install_data
+[1.759s] running install_egg_info
+[1.772s] Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info
+[1.844s] running install_scripts
+[1.881s] writing list of installed files to '/workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/install.log'
+[1.923s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/src/unity_slam_example' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_slam_example build --build-base /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/unity_slam_example --record /workspaces/foxy_ws/src/nav2_slam_example/build/unity_slam_example/install.log --single-version-externally-managed

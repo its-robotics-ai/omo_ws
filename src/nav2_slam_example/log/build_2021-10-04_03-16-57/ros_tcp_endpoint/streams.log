@@ -1,0 +1,64 @@
+[0.869s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --uninstall --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build
+[1.185s] running develop
+[1.373s] Removing /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[1.397s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --uninstall --editable --build-directory /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build
+[1.403s] Invoking command in '/workspaces/foxy_ws/src/nav2_slam_example/src/ROS-TCP-Endpoint': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --record /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[1.686s] running egg_info
+[1.689s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.693s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.703s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.707s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.711s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.777s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.801s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.828s] running build
+[1.832s] running build_py
+[1.841s] creating /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build
+[1.850s] creating /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib
+[1.855s] creating /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.863s] copying ros_tcp_endpoint/__init__.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.869s] copying ros_tcp_endpoint/client.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.871s] copying ros_tcp_endpoint/communication.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.874s] copying ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.887s] copying ros_tcp_endpoint/exceptions.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.899s] copying ros_tcp_endpoint/publisher.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.911s] copying ros_tcp_endpoint/server.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.926s] copying ros_tcp_endpoint/service.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.940s] copying ros_tcp_endpoint/subscriber.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.965s] copying ros_tcp_endpoint/tcp_sender.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.978s] copying ros_tcp_endpoint/thread_pauser.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.998s] copying ros_tcp_endpoint/unity_service.py -> /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.019s] running install
+[2.025s] running install_lib
+[2.035s] creating /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.046s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.049s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.069s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.089s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.112s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.151s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.162s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.174s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.192s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.213s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.223s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.241s] copying /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint
+[2.256s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc
+[2.277s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc
+[2.288s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc
+[2.305s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc
+[2.314s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc
+[2.332s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc
+[2.346s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc
+[2.356s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc
+[2.369s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc
+[2.380s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc
+[2.390s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc
+[2.402s] byte-compiling /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc
+[2.410s] running install_data
+[2.417s] running install_egg_info
+[2.419s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[2.487s] running install_scripts
+[2.508s] Installing default_server_endpoint script to /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[2.520s] writing list of installed files to '/workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/install.log'
+[2.550s] Invoked command in '/workspaces/foxy_ws/src/nav2_slam_example/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/build install --prefix /workspaces/foxy_ws/src/nav2_slam_example/install/ros_tcp_endpoint --record /workspaces/foxy_ws/src/nav2_slam_example/build/ros_tcp_endpoint/install.log --single-version-externally-managed

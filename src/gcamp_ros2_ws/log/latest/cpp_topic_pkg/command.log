@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+Invoking command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg
+Invoked command in '/workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /workspaces/foxy_ws/src/gcamp_ros2_ws/build/cpp_topic_pkg
